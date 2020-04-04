@@ -1,0 +1,75 @@
+concept_series -> Pokemon_Indigo_League;;
+
+Pokemon_Indigo_League
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покемон: Лига Индиго]
+	(* <- lang_ru;;	*);
+	[Pokemon: Indigo League]
+	(* <- lang_en;;	*);;
+	
+Pokemon_Indigo_League <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покемон: Лига Индиго)](*<-lang_ru;;*);
+		[Description (Pokemon: Indigo League)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Pokemon_Indigo_League_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Pokemon_Indigo_League_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Покемон: Лига Индиго)](*<-lang_ru;;*);
+		[Pic. (Pokemon: Indigo League)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Pokemon_Indigo_League.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Pokemon_Indigo_League => nrel_production_country : Japan;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League => nrel_production_year : 1997;;
+	
+value -> 80;;
+Pokemon_Indigo_League => nrel_num_of_episodes: 80;;
+
+Pokemon_Indigo_League => nrel_age_rating: concept_PG12;;
+
+Pokemon_Indigo_League 
+=> nrel_anime_character : Ash_Ketchum;
+=> nrel_anime_character : Misty;
+=> nrel_anime_character : Brock;
+=> nrel_anime_character : Sister_Joy;
+=> nrel_anime_character : Officer_Jenny;
+=> nrel_anime_character : Garry_Oak;
+=> nrel_anime_character : Ritchie;
+=> nrel_anime_character : Jassy;
+=> nrel_anime_character : James;
+=> nrel_anime_character : Professor_Oak;;
+
+Pokemon_Indigo_League
+=> nrel_screenwriter: Junichi_Masuda;
+=> nrel_screenwriter: Ken_Sugimori;
+=> nrel_screenwriter: Satoshi_Tajiri;;
+
+Pokemon_Indigo_League
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;;

@@ -1,0 +1,34 @@
+concept_pokemon_type -> concept_poison_type;;
+
+concept_poison_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ядовитый тип]
+	(* <- lang_ru;;	*);
+	[Poison type]
+	(* <- lang_en;;	*);;
+	
+concept_poison_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ядовитый тип)](*<-lang_ru;;*);
+		[Description (Poison type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_poison_type_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_poison_type_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_poison_type <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ядовитый тип)](*<-lang_ru;;*);
+		[Pic. (Poison type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_poison_type.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

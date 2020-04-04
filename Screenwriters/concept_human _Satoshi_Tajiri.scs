@@ -1,0 +1,50 @@
+concept_human -> Satoshi_Tajiri;;
+
+Satoshi_Tajiri
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сатоси Тадзири]
+	(* <- lang_ru;;	*);
+	[Satoshi Tajiri]
+	(* <- lang_en;;	*);;
+	
+Satoshi_Tajiri <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сатоси Тадзири)](*<-lang_ru;;*);
+		[Description (Satoshi Tajiri)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Satoshi_Tajiri_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Satoshi_Tajiri_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Satoshi_Tajiri <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сатоси Тадзири)](*<-lang_ru;;*);
+		[Pic. (Satoshi Tajiri)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Satoshi_Tajiri.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date -> 1965;;
+Satoshi_Tajiri=>nrel_date_of_birth: 1965;;
+1965 => nrel_main_idtf:[1965 год](*<-lang_ru;;*);;
+1965 => nrel_main_idtf:[year of 1965](*<-lang_en;;*);;
+
+concept_calendar_date->1981;;
+Satoshi_Tajiri => nrel_career_start_date: 1981;;
+1981 => nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981 => nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+Satoshi_Tajiri => nrel_cityzenship: Japan;;

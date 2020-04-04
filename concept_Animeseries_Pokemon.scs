@@ -1,0 +1,96 @@
+concept_series -> Pokemon_series;;
+
+Pokemon_series
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покемон (сериал)]
+	(* <- lang_ru;;	*);
+	[Pokemon (series)]
+	(* <- lang_en;;	*);;
+	
+Pokemon_series <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покемон (сериал))](*<-lang_ru;;*);
+		[Description (Pokemon (series))](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Pokemon_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Pokemon_series_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_series <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Покемон (сериал))](*<-lang_ru;;*);
+		[Pic. (Pokemon (series))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Pokemon_series.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Pokemon_series => nrel_production_country : Japan;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_series => nrel_production_year : 1997;;
+	
+value -> 23;;
+Pokemon_series => nrel_num_of_seasons: 23;;
+
+value -> 1050;;
+Pokemon_series => nrel_num_of_episodes: 1050;;
+
+value -> 74;;
+Pokemon_series => nrel_no_countries : 74;;
+
+Pokemon_series => nrel_age_rating: concept_PG12;;
+
+Pokemon_series => nrel_anime_character : Ash_Ketchum;;
+
+Pokemon_series 
+=> nrel_screenwriter: Junichi_Masuda;
+=> nrel_screenwriter: Ken_Sugimori;
+=> nrel_screenwriter: Satoshi_Tajiri;;
+
+Pokemon_series
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;;
+
+Pokemon_series
+=>nrel_inclusion: Pokemon_Indigo_League;
+=>nrel_inclusion: Pokemon_Adventures_in_the_Orange_Islands;
+=>nrel_inclusion: Pokemon_The_Johto_Journeys;
+=>nrel_inclusion: Pokemon_Johto_League_Champions;
+=>nrel_inclusion: Pokemon_Master_Quest;
+=>nrel_inclusion: Pokemon_Advanced;
+=>nrel_inclusion: Pokemon_Advanced_Challenge;
+=>nrel_inclusion: Pokemon_Advanced_Battle;
+=>nrel_inclusion: Pokemon_Battle_Frontier;
+=>nrel_inclusion: Pokemon_Diamond_and_Pearl;
+=>nrel_inclusion: Pokemon_Battle_Dimension;
+=>nrel_inclusion: Pokemon_Galactic_Battles;
+=>nrel_inclusion: Pokemon_Sinnoh_League_Victors;
+=>nrel_inclusion: Pokemon_Black_and_White;
+=>nrel_inclusion: Pokemon_Rival_Destinies;
+=>nrel_inclusion: Pokemon_Adventures_in_Unova;
+=>nrel_inclusion: Pokemon_X_and_Y;
+=>nrel_inclusion: Pokemon_XY_Kalos_Quest;
+=>nrel_inclusion: Pokemon_XY_and_Z;
+=>nrel_inclusion: Pokemon_Sun_and_Moon;
+=>nrel_inclusion: Pokemon_Sun_and_Moon_Ultra_Adventures;
+=>nrel_inclusion: Pokemon_Sun_and_Moon_Ultra_Legends;
+=>nrel_inclusion: Pokemon_Master_Quest;;

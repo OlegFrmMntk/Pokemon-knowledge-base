@@ -1,0 +1,34 @@
+concept_pokemon_type -> concept_ground_type;;
+
+concept_ground_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Земляной тип]
+	(* <- lang_ru;;	*);
+	[Ground type]
+	(* <- lang_en;;	*);;
+	
+concept_ground_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Земляной тип)](*<-lang_ru;;*);
+		[Description (Ground type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_ground_type_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_ground_type_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_ground_type <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Земляной тип)](*<-lang_ru;;*);
+		[Pic. (Ground type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_ground_type.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

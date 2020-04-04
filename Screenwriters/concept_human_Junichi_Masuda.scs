@@ -1,0 +1,50 @@
+concept_human -> Junichi_Masuda;;
+
+Junichi_Masuda
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дзюнъити Масуда]
+	(* <- lang_ru;;	*);
+	[Junichi Masuda]
+	(* <- lang_en;;	*);;
+	
+Junichi_Masuda <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дзюнъити Масуда)](*<-lang_ru;;*);
+		[Description (Junichi Masuda)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Junichi_Masuda_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Junichi_Masuda_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Junichi_Masuda <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дзюнъити Масуда)](*<-lang_ru;;*);
+		[Pic. (Junichi Masuda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Junichi_Masuda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1968;;
+Junichi_Masuda=>nrel_date_of_birth: 1968;;
+1968 => nrel_main_idtf:[1968 год](*<-lang_ru;;*);;
+1968 => nrel_main_idtf:[year of 1968](*<-lang_en;;*);;
+
+concept_calendar_date->1989;;
+Junichi_Masuda => nrel_career_start_date: 1989;;
+1989 => nrel_main_idtf:[1989 год](*<-lang_ru;;*);;
+1989 => nrel_main_idtf:[year of 1989](*<-lang_en;;*);;
+
+Junichi_Masuda =>nrel_cityzenship:Japan;;

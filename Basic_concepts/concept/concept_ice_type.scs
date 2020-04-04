@@ -1,0 +1,34 @@
+concept_pokemon_type -> concept_ice_type;;
+
+concept_ice_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ледяной тип]
+	(* <- lang_ru;;	*);
+	[Ice type]
+	(* <- lang_en;;	*);;
+	
+concept_ice_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ледяной тип)](*<-lang_ru;;*);
+		[Description (Ice type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_ice_type_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_ice_type_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_ice_type <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ледяной тип)](*<-lang_ru;;*);
+		[Pic. (Ice type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_ice_type.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

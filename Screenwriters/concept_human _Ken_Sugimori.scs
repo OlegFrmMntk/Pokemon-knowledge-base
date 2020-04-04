@@ -1,0 +1,50 @@
+concept_human -> Ken_Sugimori;;
+
+Ken_Sugimori
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кэн Сугимори]
+	(* <- lang_ru;;	*);
+	[Ken Sugimori]
+	(* <- lang_en;;	*);;
+	
+Ken_Sugimori <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кэн Сугимори)](*<-lang_ru;;*);
+		[Description (Ken Sugimori)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ken_Sugimori_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ken_Sugimori_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ken_Sugimori <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэн Сугимори)](*<-lang_ru;;*);
+		[Pic. (Ken Sugimori)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ken_Sugimori.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->	1966;;
+Ken_Sugimori=>nrel_date_of_birth: 1966;;
+1966 => nrel_main_idtf:[1966 год](*<-lang_ru;;*);;
+1966 => nrel_main_idtf:[year of 1966](*<-lang_en;;*);;
+
+concept_calendar_date->1981;;
+Ken_Sugimori => nrel_career_start_date: 1981;;
+1981 => nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981 => nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+Ken_Sugimori =>nrel_cityzenship:Japan;;

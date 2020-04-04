@@ -1,0 +1,34 @@
+concept_pokemon_type -> concept_psychic_type;;
+
+concept_psychic_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Психический тип]
+	(* <- lang_ru;;	*);
+	[Psychic type]
+	(* <- lang_en;;	*);;
+	
+concept_psychic_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Психический тип)](*<-lang_ru;;*);
+		[Description (Psychic type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_psychic_type_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_psychic_type_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_psychic_type <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Психический тип)](*<-lang_ru;;*);
+		[Pic. (Psychic type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_psychic_type.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

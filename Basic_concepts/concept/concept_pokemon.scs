@@ -1,0 +1,34 @@
+concept_anime_character -> concept_pokemon;;
+
+concept_pokemon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покемон]
+	(* <- lang_ru;;	*);
+	[Pokemon]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покемон)](*<-lang_ru;;*);
+		[Description (Pokemon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Покемон)](*<-lang_ru;;*);
+		[Pic. (Pokemon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
