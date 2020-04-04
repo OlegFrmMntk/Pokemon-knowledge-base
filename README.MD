@@ -1,22 +1,35 @@
 Покемон(Сериал) + Pokemon_series
 
 Сценаристы:
+
 	Дзюнъити Масуда + concept_normal_type
+
 	Кэн Сугимори + Ken_Sugimori
+
 	Сатоси Тадзири + Satoshi_Tajiri
 
 Покемон: Лига Индиго + Pokemon_Indigo_League
 
 Главные персонажи:
+	
 	Эш Кетчум
+	
 	Мисти
+
 	Брок
+	
 	Сестра Джой
+	
 	Офицер Дженни
+	
 	Гэри Оук
+	
 	Ритчи
+	
 	Джесси
+	
 	Джеймс
+	
 	Профессор Оук	
  
 Покемон + concept_pokemon
@@ -65,10 +78,18 @@
 	Виктрибелл
 	Гроули
 
-Тип покемона* + nrel_pokemon_evolution
-Тип покемона* + concept_pokemon_type
-Атака покемона
+Тип покемона + concept_pokemon_type
+
+тип покемона* + nrel_pokemon_evolution
+
+Способность покемона
+
+способность* + nrel_pokemon_ability
+
+Тренер покемонов + concept_pokemon_trainer
+
 тренер* + nrel_pokemon_trainer
+
 эволюция покемона* + nrel_pokemon_evolution
 
 Нормальный тип + concept_normal_type
