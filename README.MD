@@ -122,6 +122,8 @@
 
 Основные понятия:
 
+	Покедекс + concept_pokedex
+
 	Тип покемона + concept_pokemon_type
 
 	тип покемона* + nrel_pokemon_evolution
@@ -135,6 +137,8 @@
 	тренер* + nrel_pokemon_trainer
 
 	эволюция покемона* + nrel_pokemon_evolution
+
+	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green, concept_color_black, concept_color_brown, concept_color_purple, concept_color_gray, 		concept_color_white, concept_color_pink
 
 Типы:
 

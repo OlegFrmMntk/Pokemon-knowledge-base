@@ -7,14 +7,14 @@ nrel_pokemon_evolution <- sc_node_norole_relation;
 <- antitransitive_relation;
 
 => nrel_main_idtf:
-    [pokemon evolution*](*<- lang_en;;*);
-    [эволюция покемона*](*<- lang_ru;;*);
+    [evolves into*](*<- lang_en;;*);
+    [эволюционирует в*](*<- lang_ru;;*);
 
 <- rrel_key_sc_element:... (*
     <- definition;;
     => nrel_main_idtf: 
-        [Опр. (эволюция покемона*)](*<- lang_ru;;*);
-        [Def. (pokemon evolution*)](*<- lang_en;;*);;
+        [Опр. (эволюционирует в*)](*<- lang_ru;;*);
+        [Def. (evolves into*)](*<- lang_en;;*);;
     <= nrel_sc_text_translation:...(*
         -> rrel_example: "file://HTML/nrel_pokemon_evolution_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
         -> rrel_example: "file://HTML/nrel_pokemon_evolution_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
