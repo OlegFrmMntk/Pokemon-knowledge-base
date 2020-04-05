@@ -126,20 +126,27 @@
 
 	Тип покемона + concept_pokemon_type
 
-	тип покемона* + nrel_pokemon_evolution
-
-	Способность покемона
-
-	способность* + nrel_pokemon_ability
+	Способность покемона + concept_pokemon_ability
 
 	Тренер покемонов + concept_pokemon_trainer
 
-	тренер* + nrel_pokemon_trainer
-
 	эволюция покемона* + nrel_pokemon_evolution
 
-	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green, concept_color_black, concept_color_brown, concept_color_purple, concept_color_gray, 		concept_color_white, concept_color_pink
+	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green,
+                         concept_color_black, concept_color_brown, concept_color_purple, 
+			 concept_color_gray, concept_color_white, concept_color_pink
+	
+	тип покемона* + nrel_pokemon_evolution
 
+	тренер* + nrel_pokemon_trainer	
+	
+	имеет* - nrel_have
+
+	номер в покедексе* + nrel_pokedex_number
+
+	масса* + nrel_weight
+
+	рост* + nrel_height
 Типы:
 
 	Нормальный тип + concept_normal_type
