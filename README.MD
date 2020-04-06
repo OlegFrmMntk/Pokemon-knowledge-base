@@ -130,7 +130,9 @@
 
 	Тренер покемонов + concept_pokemon_trainer
 
-	эволюция покемона* + nrel_pokemon_evolution
+	эволюционирует из* + nrel_pokemon_evolves_from
+
+	эволюционирует в* + nrel_pokemon_evolves_into
 
 	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green,
                          concept_color_black, concept_color_brown, concept_color_purple, 
