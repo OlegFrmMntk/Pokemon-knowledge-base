@@ -122,6 +122,8 @@
 
 Основные понятия:
 
+	Атака
+
 	Покедекс + concept_pokedex
 
 	Тип покемона + concept_pokemon_type
