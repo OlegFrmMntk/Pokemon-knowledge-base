@@ -140,7 +140,7 @@
                          concept_color_black, concept_color_brown, concept_color_purple, 
 			 concept_color_gray, concept_color_white, concept_color_pink
 	
-	тип покемона* + nrel_pokemon_evolution
+	тип покемона* + nrel_pokemon_type
 
 	тренер* + nrel_pokemon_trainer	
 	
