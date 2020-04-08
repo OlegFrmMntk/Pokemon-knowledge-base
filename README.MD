@@ -151,6 +151,8 @@
 	масса* + nrel_weight
 
 	рост* + nrel_height
+
+	цвет* + nrel_color
 Типы:
 
 	Нормальный тип + concept_normal_type
@@ -186,3 +188,6 @@
 	Драконий тип + concept_dragon_type
 	
 	Тёмный тип + concept_dark_type
+
+Покемоны: 
+	Пикачу + concept_pokemon_pikachu
