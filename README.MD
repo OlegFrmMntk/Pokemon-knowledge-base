@@ -190,4 +190,4 @@
 	Тёмный тип + concept_dark_type
 
 Покемоны: 
-	Пикачу + concept_pokemon_pikachu
+	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu =>
