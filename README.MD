@@ -150,7 +150,7 @@
 
 	рост* + nrel_height
 
-	цвет* + nrel_color
+	цвет в покедексе* + nrel_color_in_pokedex
 Типы:
 
 	Нормальный тип + concept_normal_type
