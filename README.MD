@@ -132,9 +132,7 @@
 
 	Тренер покемонов + concept_pokemon_trainer
 
-	эволюционирует из* + nrel_pokemon_evolves_from
-
-	эволюционирует в* + nrel_pokemon_evolves_into
+	эволюция* + nrel_pokemon_evolution
 
 	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green,
                          concept_color_black, concept_color_brown, concept_color_purple, 
@@ -190,4 +188,6 @@
 	Тёмный тип + concept_dark_type
 
 Покемоны: 
-	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu =>
+	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu => Райчу + concept_pokemon_raichu
+	
+	
