@@ -1,0 +1,121 @@
+concept_pokemon -> concept_pokemon_bulbasaur;;
+
+concept_pokemon_bulbasaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бульбазавр]
+	(* <- lang_ru;;	*);
+	[Bulbasaur]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бульбазавр)](*<-lang_ru;;*);
+		[Description (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Бульбазавр)](*<-lang_ru;;*);
+		[Appearance (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Бульбазавр)](*<-lang_ru;;*);
+		[Behavior (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Бульбазавр)](*<-lang_ru;;*);
+		[Natural ability (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Бульбазавр)](*<-lang_ru;;*);
+		[Habitat (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Луковица (Бульбазавр)](*<-lang_ru;;*);
+		[Bulb (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_bulb_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_bulbasaur_bulb_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_bulbasaur <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бульбазавр)](*<-lang_ru;;*);
+		[Pic. (Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_bulbasaur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_bulbasaur 
+=> nrel_pokemon_evolution: concept_pokemon_ivysaur;;
+
+concept_pokemon_bulbasaur 
+=> nrel_pokemon_type: concept_grass_type;
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_bulbasaur 
+=> nrel_color_in_pokedex: concept_color_green;;
+
+value -> 1;;
+concept_pokemon_bulbasaur => nrel_pokedex_number: 1;;
+
+value -> 0.7;;
+concept_pokemon_bulbasaur => nrel_height: 0.7;;
+
+value -> 6.9;;
+concept_pokemon_bulbasaur => nrel_weight: 6.9;;
+

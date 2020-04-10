@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_pikachu;;
+
+concept_pokemon_pikachu
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пикачу]
+	(* <- lang_ru;;	*);
+	[Pikachu]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пикачу)](*<-lang_ru;;*);
+		[Description (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Физиология (Пикачу)](*<-lang_ru;;*);
+		[Physiology (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_physiology_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_physiology_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Пикачу)](*<-lang_ru;;*);
+		[Behavior (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Пикачу)](*<-lang_ru;;*);
+		[Natural ability (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Естественная среда обитания (Пикачу)](*<-lang_ru;;*);
+		[Natural habitat (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_natural_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pikachu_natural_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pikachu <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пикачу)](*<-lang_ru;;*);
+		[Pic. (Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_pikachu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_pikachu => nrel_pokemon_type: concept_electric_type;;
+
+concept_pokemon_pikachu => nrel_pokemon_evolution: concept_pokemon_raichu;;
+
+concept_pokemon_pikachu => nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 25;;
+concept_pokemon_pikachu => nrel_pokedex_number: 25;;
+
+value -> 0.4;;
+concept_pokemon_pikachu => nrel_height: 0.4;;
+
+value -> 6;;
+concept_pokemon_pikachu => nrel_weight: 6;;
+

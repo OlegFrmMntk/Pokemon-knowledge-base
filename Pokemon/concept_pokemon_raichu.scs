@@ -1,0 +1,88 @@
+concept_pokemon -> concept_pokemon_raichu;;
+
+concept_pokemon_raichu
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Райчу]
+	(* <- lang_ru;;	*);
+	[Raichu]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_raichu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Райчу)](*<-lang_ru;;*);
+		[Description (Raichu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_raichu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_raichu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_raichu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Райчу)](*<-lang_ru;;*);
+		[Appearance (Raichu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_raichu_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_raichu_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_raichu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Райчу)](*<-lang_ru;;*);
+		[Behavior (Raichu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_raichu_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_raichu_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_raichu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Райчу)](*<-lang_ru;;*);
+		[Natural ability (Raichu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_raichu_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_raichu_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_raichu <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Райчу)](*<-lang_ru;;*);
+		[Pic. (Raichu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_raichu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_raichu => nrel_pokemon_type: concept_electric_type;;
+
+concept_pokemon_raichu => nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 26;;
+concept_pokemon_raichu => nrel_pokedex_number: 26;;
+
+value -> 0.8;;
+concept_pokemon_raichu => nrel_height: 0.8;;
+
+value -> 30;;
+concept_pokemon_raichu => nrel_weight: 30;;
+

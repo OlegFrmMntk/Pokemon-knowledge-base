@@ -1,0 +1,76 @@
+concept_pokemon -> concept_pokemon_pichuu;;
+
+concept_pokemon_pichuu
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пичу]
+	(* <- lang_ru;;	*);
+	[Pichuu]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_pichuu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пичу)](*<-lang_ru;;*);
+		[Description (Pichuu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pichuu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Пичу)](*<-lang_ru;;*);
+		[Behavior (Pichuu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pichuu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Естественная среда обитания (Пичу)](*<-lang_ru;;*);
+		[Natural habitat (Pichuu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_natural_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pichuu_natural_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pichuu <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пичу)](*<-lang_ru;;*);
+		[Pic. (Pichuu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_pichuu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_pichuu => nrel_pokemon_type: concept_electric_type;;
+
+concept_pokemon_pichuu => nrel_pokemon_evolution: concept_pokemon_pikachu;;
+
+concept_pokemon_pichuu => nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 172;;
+concept_pokemon_pichuu => nrel_pokedex_number: 172;;
+
+value -> 0.3;;
+concept_pokemon_pichuu => nrel_height: 0.3;;
+
+value -> 2;;
+concept_pokemon_pichuu => nrel_weight: 2;;
+
