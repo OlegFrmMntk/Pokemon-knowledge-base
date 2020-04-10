@@ -2,7 +2,7 @@
 
 Сценаристы:
 
-	Дзюнъити Масуда + concept_normal_type
+	Дзюнъити Масуда + Junichi_Masuda
 
 	Кэн Сугимори + Ken_Sugimori
 
@@ -188,6 +188,7 @@
 	Тёмный тип + concept_dark_type
 
 Покемоны: 
+
 	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu => Райчу + concept_pokemon_raichu
 	
 	
