@@ -190,5 +190,7 @@
 Покемоны: 
 
 	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu => Райчу + concept_pokemon_raichu
+
+	Бульбазавр + concept_pokemon_bulbasaur => Ивизавр + concept_pokemon_ivysaur => Венузавр + concept_pokemon_venusaur
 	
 	
