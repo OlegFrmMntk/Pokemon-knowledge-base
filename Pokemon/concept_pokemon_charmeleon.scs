@@ -1,0 +1,108 @@
+concept_pokemon -> concept_pokemon_charmeleon;;
+
+concept_pokemon_charmeleon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чармилион]
+	(* <- lang_ru;;	*);
+	[Charmeleon]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чармилион)](*<-lang_ru;;*);
+		[Description (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Чармилион)](*<-lang_ru;;*);
+		[Appearance (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Чармилион)](*<-lang_ru;;*);
+		[Behavior (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Чармилион)](*<-lang_ru;;*);
+		[Natural ability (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Чармилион)](*<-lang_ru;;*);
+		[Habitat (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_charmeleon_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_charmeleon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чармилион)](*<-lang_ru;;*);
+		[Pic. (Charmeleon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_charmeleon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_charmeleon 
+=> nrel_pokemon_evolution: concept_pokemon_charizard;;
+
+concept_pokemon_charmeleon 
+=> nrel_pokemon_type: concept_fire_type;;
+
+
+concept_pokemon_charmeleon 
+=> nrel_color_in_pokedex: concept_color_red;;
+
+value -> 5;;
+concept_pokemon_charmeleon => nrel_pokedex_number: 5;;
+
+value -> 1.1;;
+concept_pokemon_charmeleon => nrel_height: 1.1;;
+
+value -> 19;;
+concept_pokemon_charmeleon => nrel_weight: 19;;
+
