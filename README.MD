@@ -142,7 +142,7 @@
 
 	тренер* + nrel_pokemon_trainer	
 	
-	имеет* - nrel_have
+	имеет* + nrel_have
 
 	номер в покедексе* + nrel_pokedex_number
 
@@ -192,5 +192,7 @@
 	Пичу + concept_pokemon_pichuu => Пикачу + concept_pokemon_pikachu => Райчу + concept_pokemon_raichu
 
 	Бульбазавр + concept_pokemon_bulbasaur => Ивизавр + concept_pokemon_ivysaur => Венузавр + concept_pokemon_venusaur
+
+	Чармандер + concept_pokemon_charmander => Чармелеон + concept_pokemon_charmeleon => Чаризард + concept_pokemon_charizard
 	
 	
