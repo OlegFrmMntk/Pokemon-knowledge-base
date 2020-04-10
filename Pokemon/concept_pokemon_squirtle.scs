@@ -88,7 +88,7 @@ concept_pokemon_squirtle <-rrel_key_sc_element:...
 *);;
 
 concept_pokemon_squirtle
-=> nrel_evolution: concept_pokemon_wartortle;;
+=> nrel_pokemon_evolution: concept_pokemon_wartortle;;
 
 concept_pokemon_squirtle 
 => nrel_pokemon_type: concept_water_type;;
