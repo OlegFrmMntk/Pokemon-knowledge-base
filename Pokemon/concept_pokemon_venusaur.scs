@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_venusaur;;
+
+concept_pokemon_venusaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Венузавр]
+	(* <- lang_ru;;	*);
+	[Venusaur]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Венузавр)](*<-lang_ru;;*);
+		[Description (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Венузавр)](*<-lang_ru;;*);
+		[Appearance (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Венузавр)](*<-lang_ru;;*);
+		[Behavior (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Венузавр)](*<-lang_ru;;*);
+		[Natural ability (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Венузавр)](*<-lang_ru;;*);
+		[Habitat (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_venusaur_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_venusaur <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Венузавр)](*<-lang_ru;;*);
+		[Pic. (Venusaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_venusaur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_venusaur 
+=> nrel_pokemon_type: concept_grass_type;
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_venusaur 
+=> nrel_color_in_pokedex: concept_color_green;;
+
+value -> 3;;
+concept_pokemon_venusaur => nrel_pokedex_number: 3;;
+
+value -> 2;;
+concept_pokemon_venusaur => nrel_height: 2;;
+
+value -> 100;;
+concept_pokemon_venusaur => nrel_weight: 100;;
