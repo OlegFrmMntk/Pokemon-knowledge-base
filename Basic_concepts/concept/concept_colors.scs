@@ -1,0 +1,80 @@
+concept_color_red 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Красный]
+	(* <- lang_ru;;	*);
+	[Red]
+	(* <- lang_en;;	*);;
+
+concept_color_blue 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Голубой]
+	(* <- lang_ru;;	*);
+	[Blue]
+	(* <- lang_en;;	*);;
+
+concept_color_yellow 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Желтый]
+	(* <- lang_ru;;	*);
+	[Yellow]
+	(* <- lang_en;;	*);;
+
+concept_color_green 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зеленый]
+	(* <- lang_ru;;	*);
+	[Green]
+	(* <- lang_en;;	*);;
+
+concept_color_black 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Черный]
+	(* <- lang_ru;;	*);
+	[Black]
+	(* <- lang_en;;	*);;
+
+concept_color_brown 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Коричневый]
+	(* <- lang_ru;;	*);
+	[Brown]
+	(* <- lang_en;;	*);;
+
+concept_color_purple
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Фиолетовый]
+	(* <- lang_ru;;	*);
+	[Purple]
+	(* <- lang_en;;	*);;
+
+concept_color_gray
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Серый]
+	(* <- lang_ru;;	*);
+	[Gray]
+	(* <- lang_en;;	*);;
+
+concept_color_white 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Белый]
+	(* <- lang_ru;;	*);
+	[White]
+	(* <- lang_en;;	*);;
+
+concept_color_pink 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Розовый]
+	(* <- lang_ru;;	*);
+	[Pink]
+	(* <- lang_en;;	*);;
+
