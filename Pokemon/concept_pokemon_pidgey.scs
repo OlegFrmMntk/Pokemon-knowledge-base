@@ -87,6 +87,9 @@ concept_pokemon_pidgey <-rrel_key_sc_element:...
 	*);;
 *);;
 
+concept_pokemon_pidgey
+=> nrel_pokemon_evolution: concept_pokemon_pidgeotto;;
+
 concept_pokemon_pidgey 
 => nrel_pokemon_type: concept_normal_type;
 => nrel_pokemon_type: concept_flying_type;;
