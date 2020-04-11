@@ -196,5 +196,7 @@
 	Чармандер + concept_pokemon_charmander => Чармелеон + concept_pokemon_charmeleon => Чаризард + concept_pokemon_charizard
 
 	Сквиртл + concept_pokemon_squirtle => Вартортл + concept_pokemon_wartortle => Бластойз + concept_pokemon_blastoise
+
+	Катерпи + concept_pokemon_caterpie => Метапод + concept_pokemon_metapod => Баттерфри + concept_pokemon_butterfree
 	
 	
