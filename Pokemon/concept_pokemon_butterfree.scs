@@ -87,9 +87,6 @@ concept_pokemon_butterfree <-rrel_key_sc_element:...
 	*);;
 *);;
 
-concept_pokemon_butterfree
-=> nrel_pokemon_evolution: concept_pokemon_butterfree;;
-
 concept_pokemon_butterfree 
 => nrel_pokemon_type: concept_bug_type;
 => nrel_pokemon_type: concept_flying_type;;
