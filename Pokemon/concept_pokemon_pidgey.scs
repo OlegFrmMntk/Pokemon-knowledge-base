@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_pidgey;;
+
+concept_pokemon_pidgey
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пиджи]
+	(* <- lang_ru;;	*);
+	[Pidgey]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пиджи)](*<-lang_ru;;*);
+		[Description (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Пиджи)](*<-lang_ru;;*);
+		[Appearance (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Пиджи)](*<-lang_ru;;*);
+		[Behavior (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Пиджи)](*<-lang_ru;;*);
+		[Natural ability (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Пиджи)](*<-lang_ru;;*);
+		[Habitat (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_pidgey_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_pidgey <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пиджи)](*<-lang_ru;;*);
+		[Pic. (Pidgey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_pidgey.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_pidgey 
+=> nrel_pokemon_type: concept_normal_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_pidgey 
+=> nrel_color_in_pokedex: concept_color_brown;;
+
+value -> 16;;
+concept_pokemon_pidgey => nrel_pokedex_number: 16;;
+
+value -> 0.3;;
+concept_pokemon_pidgey => nrel_height: 0.3;;
+
+value -> 1.8;;
+concept_pokemon_pidgey => nrel_weight: 1.8;;

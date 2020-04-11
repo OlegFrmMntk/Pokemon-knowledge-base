@@ -200,4 +200,6 @@
 	Катерпи + concept_pokemon_caterpie => Метапод + concept_pokemon_metapod => Баттерфри + concept_pokemon_butterfree
 	
 	Граймер + concept_pokemon_grimer => Мак + concept_pokemon_muk
+
+	Пиджи + concept_pokemon_pidgey => Пиджеотто + concept_pokemon_pidgeotto => Пиджит + concept_pokemon_pidgeot
 	
