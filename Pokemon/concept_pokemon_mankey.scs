@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_mankey;;
+
+concept_pokemon_mankey
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Манки]
+	(* <- lang_ru;;	*);
+	[Mankey]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Манки)](*<-lang_ru;;*);
+		[Description (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mankey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mankey_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Манки)](*<-lang_ru;;*);
+		[Appearance (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mankey_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mankey_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Манки)](*<-lang_ru;;*);
+		[Behavior (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mankey_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mankey_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Манки)](*<-lang_ru;;*);
+		[Natural ability (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mankey_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mankey_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Манки)](*<-lang_ru;;*);
+		[Habitat (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mankey_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mankey_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_mankey <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Манки)](*<-lang_ru;;*);
+		[Pic. (Mankey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_mankey.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_mankey
+=> nrel_pokemon_evolution: concept_pokemon_primeape;;
+
+concept_pokemon_mankey 
+=> nrel_pokemon_type: concept_fighing_type;;
+
+concept_pokemon_mankey 
+=> nrel_color_in_pokedex: concept_color_brown;;
+
+value -> 56;;
+concept_pokemon_mankey => nrel_pokedex_number: 56;;
+
+value -> 0.5;;
+concept_pokemon_mankey => nrel_height: 0.5;;
+
+value -> 28;;
+concept_pokemon_mankey => nrel_weight: 28;;
