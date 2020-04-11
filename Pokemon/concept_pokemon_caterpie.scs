@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_caterpie;;
+
+concept_pokemon_caterpie
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Катерпи]
+	(* <- lang_ru;;	*);
+	[Caterpie]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Катерпи)](*<-lang_ru;;*);
+		[Description (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Катерпи)](*<-lang_ru;;*);
+		[Appearance (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Катерпи)](*<-lang_ru;;*);
+		[Behavior (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Катерпи)](*<-lang_ru;;*);
+		[Natural ability (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Катерпи)](*<-lang_ru;;*);
+		[Habitat (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_caterpie_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_caterpie <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Катерпи)](*<-lang_ru;;*);
+		[Pic. (Caterpie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_caterpie.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_caterpie
+=> nrel_pokemon_evolution: concept_pokemon_metapod;;
+
+concept_pokemon_caterpie 
+=> nrel_pokemon_type: concept_bug_type;;
+
+concept_pokemon_caterpie 
+=> nrel_color_in_pokedex: concept_color_green;;
+
+value -> 10;;
+concept_pokemon_caterpie => nrel_pokedex_number: 10;;
+
+value -> 0.3;;
+concept_pokemon_caterpie => nrel_height: 0.3;;
+
+value -> 2.9;;
+concept_pokemon_caterpie => nrel_weight: 2.9;;
