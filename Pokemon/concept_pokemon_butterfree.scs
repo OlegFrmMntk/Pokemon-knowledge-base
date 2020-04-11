@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_butterfree;;
+
+concept_pokemon_butterfree
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Баттерфри]
+	(* <- lang_ru;;	*);
+	[Butterfree]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Баттерфри)](*<-lang_ru;;*);
+		[Description (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Баттерфри)](*<-lang_ru;;*);
+		[Appearance (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Баттерфри)](*<-lang_ru;;*);
+		[Behavior (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Баттерфри)](*<-lang_ru;;*);
+		[Natural ability (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Баттерфри)](*<-lang_ru;;*);
+		[Habitat (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_butterfree_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_butterfree <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Баттерфри)](*<-lang_ru;;*);
+		[Pic. (Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_butterfree.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_butterfree
+=> nrel_pokemon_evolution: concept_pokemon_butterfree;;
+
+concept_pokemon_butterfree 
+=> nrel_pokemon_type: concept_bug_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_butterfree 
+=> nrel_color_in_pokedex: concept_color_white;;
+
+value -> 12;;
+concept_pokemon_butterfree => nrel_pokedex_number: 12;;
+
+value -> 1.1;;
+concept_pokemon_butterfree => nrel_height: 1.1;;
+
+value -> 32;;
+concept_pokemon_butterfree => nrel_weight: 32;;
