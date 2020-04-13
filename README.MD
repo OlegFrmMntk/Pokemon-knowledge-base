@@ -216,4 +216,6 @@
 	Голдин + concept_pokemon_goldeen => Сикинг + concept_pokemon_seaking
 
 	Псайдак + concept_pokemon_psyduck => Голдак + concept_pokemon_golduck
+
+	Хорси + concept_pokemon_horsea => Сеадра + concept_pokemon_seadra => Кингдра + 
 	
