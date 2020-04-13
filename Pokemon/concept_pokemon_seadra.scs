@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_seadra;;
+
+concept_pokemon_seadra
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сидра]
+	(* <- lang_ru;;	*);
+	[Seadra]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сидра)](*<-lang_ru;;*);
+		[Description (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seadra_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seadra_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Сидра)](*<-lang_ru;;*);
+		[Appearance (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seadra_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seadra_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Сидра)](*<-lang_ru;;*);
+		[Behavior (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seadra_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seadra_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Сидра)](*<-lang_ru;;*);
+		[Natural ability (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seadra_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seadra_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Сидра)](*<-lang_ru;;*);
+		[Habitat (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seadra_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seadra_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_seadra <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сидра)](*<-lang_ru;;*);
+		[Pic. (Seadra)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_seadra.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_seadra 
+=> nrel_pokemon_evolution: concept_pokemon_kingdra;;
+
+concept_pokemon_seadra 
+=> nrel_pokemon_type: concept_water_type;;
+
+concept_pokemon_seadra 
+=> nrel_color_in_pokedex: concept_color_blue;;
+
+value -> 117;;
+concept_pokemon_seadra => nrel_pokedex_number: 117;;
+
+value -> 1.2;;
+concept_pokemon_seadra => nrel_height: 1.2;;
+
+value -> 25;;
+concept_pokemon_seadra => nrel_weight: 25;;

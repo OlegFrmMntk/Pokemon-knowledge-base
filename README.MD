@@ -217,5 +217,5 @@
 
 	Псайдак + concept_pokemon_psyduck => Голдак + concept_pokemon_golduck
 
-	Хорси + concept_pokemon_horsea => Сеадра + concept_pokemon_seadra => Кингдра + 
+	Хорси + concept_pokemon_horsea => Сеадра + concept_pokemon_seadra => Кингдра + concept_pokemon_kingdra
 	
