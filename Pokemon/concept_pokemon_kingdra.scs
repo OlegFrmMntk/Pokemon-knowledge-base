@@ -5,7 +5,7 @@ concept_pokemon_kingdra
 => nrel_main_idtf:
 	[Кингдра]
 	(* <- lang_ru;;	*);
-	[Seadra]
+	[]
 	(* <- lang_en;;	*);;
 	
 concept_pokemon_kingdra <-rrel_key_sc_element:...
@@ -13,7 +13,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-definition;;
 	=>nrel_main_idtf:
 		[Описание (Кингдра)](*<-lang_ru;;*);
-		[Description (Seadra)](*<-lang_en;;*);;
+		[Description (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://HTML/concept_pokemon_kingdra_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
@@ -26,7 +26,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-definition;;
 	=>nrel_main_idtf:
 		[Внешность (Кингдра)](*<-lang_ru;;*);
-		[Appearance (Seadra)](*<-lang_en;;*);;
+		[Appearance (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://HTML/concept_pokemon_kingdra_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
@@ -40,7 +40,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-definition;;
 	=>nrel_main_idtf:
 		[Поведение (Кингдра)](*<-lang_ru;;*);
-		[Behavior (Seadra)](*<-lang_en;;*);;
+		[Behavior (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://HTML/concept_pokemon_kingdra_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
@@ -53,7 +53,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-definition;;
 	=>nrel_main_idtf:
 		[Природная способность (Кингдра)](*<-lang_ru;;*);
-		[Natural ability (Seadra)](*<-lang_en;;*);;
+		[Natural ability (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://HTML/concept_pokemon_kingdra_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
@@ -66,7 +66,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-definition;;
 	=>nrel_main_idtf:
 		[Среда обитания (Кингдра)](*<-lang_ru;;*);
-		[Habitat (Seadra)](*<-lang_en;;*);;
+		[Habitat (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://HTML/concept_pokemon_kingdra_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
@@ -80,7 +80,7 @@ concept_pokemon_kingdra <-rrel_key_sc_element:...
 	<-illustration;;
 	=>nrel_main_idtf:
 		[Рис. (Кингдра)](*<-lang_ru;;*);
-		[Pic. (Seadra)](*<-lang_en;;*);;
+		[Pic. (Kingdra)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
 		->rrel_example: "file://IMG/concept_pokemon_kingdra.jpg"(*=>nrel_format:format_jpg;;*);;
