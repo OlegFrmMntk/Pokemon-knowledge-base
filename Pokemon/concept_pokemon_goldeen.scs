@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_goldeen;;
+
+concept_pokemon_goldeen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Голдин]
+	(* <- lang_ru;;	*);
+	[Goldeen]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Голдин)](*<-lang_ru;;*);
+		[Description (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Голдин)](*<-lang_ru;;*);
+		[Appearance (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Голдин)](*<-lang_ru;;*);
+		[Behavior (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Голдин)](*<-lang_ru;;*);
+		[Natural ability (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Голдин)](*<-lang_ru;;*);
+		[Habitat (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_goldeen_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_goldeen <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Голдин)](*<-lang_ru;;*);
+		[Pic. (Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_goldeen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_goldeen
+=> nrel_pokemon_evolution: concept_pokemon_seaking;;
+
+concept_pokemon_goldeen 
+=> nrel_pokemon_type: concept_water_type;;
+
+concept_pokemon_goldeen 
+=> nrel_color_in_pokedex: concept_color_white;;
+
+value -> 118;;
+concept_pokemon_goldeen => nrel_pokedex_number: 118;;
+
+value -> 0.61;;
+concept_pokemon_goldeen => nrel_height: 0.61;;
+
+value -> 14.97;;
+concept_pokemon_goldeen => nrel_weight: 14.97;;

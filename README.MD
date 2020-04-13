@@ -213,3 +213,5 @@
 	
 	Сиил + concept_pokemon_seel => Дьюгонг + concept_pokemon_dewgong
 	
+	Голдин + concept_pokemon_goldeen => Сикинг + concept_pokemon_seaking
+	
