@@ -5,7 +5,7 @@ concept_pokemon_kingdra
 => nrel_main_idtf:
 	[Кингдра]
 	(* <- lang_ru;;	*);
-	[]
+	[Kingdra]
 	(* <- lang_en;;	*);;
 	
 concept_pokemon_kingdra <-rrel_key_sc_element:...

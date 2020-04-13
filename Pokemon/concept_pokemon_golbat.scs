@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_golbat;;
+
+concept_pokemon_golbat
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Голбат]
+	(* <- lang_ru;;	*);
+	[Golbat]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Голбат)](*<-lang_ru;;*);
+		[Description (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_golbat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_golbat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Голбат)](*<-lang_ru;;*);
+		[Appearance (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_golbat_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_golbat_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Голбат)](*<-lang_ru;;*);
+		[Behavior (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_golbat_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_golbat_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Голбат)](*<-lang_ru;;*);
+		[Natural ability (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_golbat_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_golbat_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Голбат)](*<-lang_ru;;*);
+		[Habitat (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_golbat_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_golbat_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_golbat <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Голбат)](*<-lang_ru;;*);
+		[Pic. (Golbat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_golbat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_golbat
+=> nrel_pokemon_evolution: concept_pokemon_crobat;;
+
+concept_pokemon_golbat 
+=> nrel_pokemon_type: concept_poison_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_golbat 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 42;;
+concept_pokemon_golbat => nrel_pokedex_number: 42;;
+
+value -> 1.6;;
+concept_pokemon_golbat => nrel_height: 1.6;;
+
+value -> 54.87;;
+concept_pokemon_golbat => nrel_weight: 54.87;;
