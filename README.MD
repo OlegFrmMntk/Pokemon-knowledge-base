@@ -122,8 +122,6 @@
 
 Основные понятия:
 
-	Атака
-
 	Покедекс + concept_pokedex
 
 	Тип покемона + concept_pokemon_type
@@ -210,4 +208,6 @@
 	Манки + concept_pokemon_mankey => Праймейп + concept_pokemon_primeape
 
 	Тогепи + concept_pokemon_togepi => Тогетик + concept_pokemon_togetic => Тогекисс + concept_pokemon_togekiss
+
+	Старью + concept_pokemon_staryu => Старми + concept_pokemon_starmie
 	

@@ -1,106 +1,103 @@
-concept_pokemon -> concept_pokemon_staryu;;
+concept_pokemon -> concept_pokemon_starmie;;
 
-concept_pokemon_staryu
+concept_pokemon_starmie
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Старью]
+	[Старми]
 	(* <- lang_ru;;	*);
-	[Staryu]
+	[Starmie]
 	(* <- lang_en;;	*);;
 	
-concept_pokemon_staryu <-rrel_key_sc_element:...
+concept_pokemon_starmie <-rrel_key_sc_element:...
 (*
 	<-definition;;
 	=>nrel_main_idtf:
-		[Описание (Старью)](*<-lang_ru;;*);
-		[Description (Staryu)](*<-lang_en;;*);;
+		[Описание (Старми)](*<-lang_ru;;*);
+		[Description (Starmie)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://HTML/concept_pokemon_staryu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://HTML/concept_pokemon_staryu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
-concept_pokemon_staryu <-rrel_key_sc_element:...
+concept_pokemon_starmie <-rrel_key_sc_element:...
 (*
 	<-definition;;
 	=>nrel_main_idtf:
-		[Внешность (Старью)](*<-lang_ru;;*);
-		[Appearance (Staryu)](*<-lang_en;;*);;
+		[Внешность (Старми)](*<-lang_ru;;*);
+		[Appearance (Starmie)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://HTML/concept_pokemon_staryu_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://HTML/concept_pokemon_staryu_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
-	*);;
-*);;
-
-
-concept_pokemon_staryu <-rrel_key_sc_element:...
-(*
-	<-definition;;
-	=>nrel_main_idtf:
-		[Поведение (Старью)](*<-lang_ru;;*);
-		[Behavior (Staryu)](*<-lang_en;;*);;
-	<=nrel_sc_text_translation:...
-	(*
-		->rrel_example: "file://HTML/concept_pokemon_staryu_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://HTML/concept_pokemon_staryu_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
-	*);;
-*);;
-
-concept_pokemon_staryu <-rrel_key_sc_element:...
-(*
-	<-definition;;
-	=>nrel_main_idtf:
-		[Природная способность (Старью)](*<-lang_ru;;*);
-		[Natural ability (Staryu)](*<-lang_en;;*);;
-	<=nrel_sc_text_translation:...
-	(*
-		->rrel_example: "file://HTML/concept_pokemon_staryu_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://HTML/concept_pokemon_staryu_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
-	*);;
-*);;
-
-concept_pokemon_staryu <-rrel_key_sc_element:...
-(*
-	<-definition;;
-	=>nrel_main_idtf:
-		[Среда обитания (Старью)](*<-lang_ru;;*);
-		[Habitat (Staryu)](*<-lang_en;;*);;
-	<=nrel_sc_text_translation:...
-	(*
-		->rrel_example: "file://HTML/concept_pokemon_staryu_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://HTML/concept_pokemon_staryu_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
 
-concept_pokemon_staryu <-rrel_key_sc_element:...
+concept_pokemon_starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Старми)](*<-lang_ru;;*);
+		[Behavior (Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_starmie_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Старми)](*<-lang_ru;;*);
+		[Natural ability (Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_starmie_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Старми)](*<-lang_ru;;*);
+		[Habitat (Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_starmie_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_starmie_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_starmie <-rrel_key_sc_element:...
 (*
 	<-illustration;;
 	=>nrel_main_idtf:
-		[Рис. (Старью)](*<-lang_ru;;*);
-		[Pic. (Staryu)](*<-lang_en;;*);;
+		[Рис. (Старми)](*<-lang_ru;;*);
+		[Pic. (Starmie)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://IMG/concept_pokemon_staryu.jpg"(*=>nrel_format:format_jpg;;*);;
+		->rrel_example: "file://IMG/concept_pokemon_starmie.jpg"(*=>nrel_format:format_jpg;;*);;
 	*);;
 *);;
 
-concept_pokeomn_staryu
-=> nrel_pokemon_evolution: concept_pokemon_starmie;;
-
-concept_pokemon_staryu 
+concept_pokemon_starmie 
 => nrel_pokemon_type: concept_water_type;;
 
-concept_pokemon_staryu 
-=> nrel_color_in_pokedex: concept_color_brown;;
+concept_pokemon_starmie 
+=> nrel_color_in_pokedex: concept_color_purple;;
 
-value -> 120;;
-concept_pokemon_staryu => nrel_pokedex_number: 120;;
+value -> 121;;
+concept_pokemon_starmie => nrel_pokedex_number: 121;;
 
-value -> 0.8;;
-concept_pokemon_staryu => nrel_height: 0.8;;
+value -> 1.1;;
+concept_pokemon_starmie => nrel_height: 1.1;;
 
-value -> 34.5;;
-concept_pokemon_staryu => nrel_weight: 34.5;;
+value -> 80;;
+concept_pokemon_starmie => nrel_weight: 80;;

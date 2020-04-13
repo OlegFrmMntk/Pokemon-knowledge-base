@@ -87,7 +87,7 @@ concept_pokemon_staryu <-rrel_key_sc_element:...
 	*);;
 *);;
 
-concept_pokeomn_staryu
+concept_pokemon_staryu
 => nrel_pokemon_evolution: concept_pokemon_starmie;;
 
 concept_pokemon_staryu 
