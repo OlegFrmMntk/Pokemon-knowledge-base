@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_crobat;;
+
+concept_pokemon_crobat
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кробат]
+	(* <- lang_ru;;	*);
+	[Crobat]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кробат)](*<-lang_ru;;*);
+		[Description (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_crobat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_crobat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Кробат)](*<-lang_ru;;*);
+		[Appearance (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_crobat_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_crobat_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Кробат)](*<-lang_ru;;*);
+		[Behavior (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_crobat_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_crobat_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Кробат)](*<-lang_ru;;*);
+		[Natural ability (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_crobat_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_crobat_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Кробат)](*<-lang_ru;;*);
+		[Habitat (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_crobat_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_crobat_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_crobat <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кробат)](*<-lang_ru;;*);
+		[Pic. (Crobat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_crobat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_crobat 
+=> nrel_pokemon_type: concept_poison_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_crobat 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 169;;
+concept_pokemon_crobat => nrel_pokedex_number: 169;;
+
+value -> 1.8;;
+concept_pokemon_crobat => nrel_height: 1.8;;
+
+value -> 75;;
+concept_pokemon_crobat => nrel_weight: 75;;
