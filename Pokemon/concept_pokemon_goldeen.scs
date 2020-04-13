@@ -94,7 +94,7 @@ concept_pokemon_goldeen
 => nrel_pokemon_type: concept_water_type;;
 
 concept_pokemon_goldeen 
-=> nrel_color_in_pokedex: concept_color_white;;
+=> nrel_color_in_pokedex: concept_color_red;;
 
 value -> 118;;
 concept_pokemon_goldeen => nrel_pokedex_number: 118;;
