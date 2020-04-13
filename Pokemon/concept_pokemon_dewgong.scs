@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_dewgong;;
+
+concept_pokemon_dewgong
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дьюгонг]
+	(* <- lang_ru;;	*);
+	[Dewgong]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дьюгонг)](*<-lang_ru;;*);
+		[Description (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Дьюгонг)](*<-lang_ru;;*);
+		[Appearance (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Дьюгонг)](*<-lang_ru;;*);
+		[Behavior (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Дьюгонг)](*<-lang_ru;;*);
+		[Natural ability (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Дьюгонг)](*<-lang_ru;;*);
+		[Habitat (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dewgong_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dewgong <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дьюгонг)](*<-lang_ru;;*);
+		[Pic. (Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_dewgong.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_dewgong 
+=> nrel_pokemon_type: concept_water_type;
+=> nrel_pokemon_type: concept_ice_type;;
+
+concept_pokemon_dewgong 
+=> nrel_color_in_pokedex: concept_color_white;;
+
+value -> 87;;
+concept_pokemon_dewgong => nrel_pokedex_number: 87;;
+
+value -> 1.7;;
+concept_pokemon_dewgong => nrel_height: 1.7;;
+
+value -> 120.18;;
+concept_pokemon_dewgong => nrel_weight: 120.18;;
