@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_seel;;
+
+concept_pokemon_seel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сиил]
+	(* <- lang_ru;;	*);
+	[Seel]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сиил)](*<-lang_ru;;*);
+		[Description (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seel_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Сиил)](*<-lang_ru;;*);
+		[Appearance (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seel_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seel_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Сиил)](*<-lang_ru;;*);
+		[Behavior (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seel_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seel_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Сиил)](*<-lang_ru;;*);
+		[Natural ability (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seel_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seel_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Сиил)](*<-lang_ru;;*);
+		[Habitat (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_seel_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_seel_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_seel <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сиил)](*<-lang_ru;;*);
+		[Pic. (Seel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_seel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_seel
+=> nrel_pokemon_evolution: concept_pokemon_dewgong;;
+
+concept_pokemon_seel 
+=> nrel_pokemon_type: concept_water_type;;
+
+concept_pokemon_seel 
+=> nrel_color_in_pokedex: concept_color_white;;
+
+value -> 86;;
+concept_pokemon_seel => nrel_pokedex_number: 86;;
+
+value -> 1.09;;
+concept_pokemon_seel => nrel_height: 1.09;;
+
+value -> 89.79;;
+concept_pokemon_seel => nrel_weight: 89.79;;

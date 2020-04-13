@@ -211,3 +211,5 @@
 
 	Старью + concept_pokemon_staryu => Старми + concept_pokemon_starmie
 	
+	Сиил + concept_pokemon_seel => Дьюгонг + concept_pokemon_dewgong
+	
