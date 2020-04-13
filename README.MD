@@ -208,4 +208,6 @@
 	Таурос + concept_pokemon_tauros
 
 	Манки + concept_pokemon_mankey => Праймейп + concept_pokemon_primeape
+
+	Тогепи + concept_pokemon_togepi => Тогетик + concept_pokemon_togetic => Тогекисс + concept_pokemon_togekiss
 	

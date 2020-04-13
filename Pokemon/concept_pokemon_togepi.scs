@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_togepi;;
+
+concept_pokemon_togepi
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тогепи]
+	(* <- lang_ru;;	*);
+	[Togepi]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тогепи)](*<-lang_ru;;*);
+		[Description (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_togepi_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_togepi_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Тогепи)](*<-lang_ru;;*);
+		[Appearance (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_togepi_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_togepi_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Тогепи)](*<-lang_ru;;*);
+		[Behavior (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_togepi_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_togepi_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Тогепи)](*<-lang_ru;;*);
+		[Natural ability (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_togepi_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_togepi_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Тогепи)](*<-lang_ru;;*);
+		[Habitat (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_togepi_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_togepi_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_togepi <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тогепи)](*<-lang_ru;;*);
+		[Pic. (Togepi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_togepi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_togepi
+=> nrel_pokemon_evolution: concept_pokemon_togetic;;
+
+concept_pokemon_togepi 
+=> nrel_pokemon_type: concept_fairy_type;;
+
+concept_pokemon_togepi 
+=> nrel_color_in_pokedex: concept_color_white;;
+
+value -> 175;;
+concept_pokemon_togepi => nrel_pokedex_number: 175;;
+
+value -> 0.3;;
+concept_pokemon_togepi => nrel_height: 0.3;;
+
+value -> 0.5;;
+concept_pokemon_togepi => nrel_weight: 0.5;;
