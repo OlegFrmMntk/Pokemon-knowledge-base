@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_ninetales;;
+
+concept_pokemon_ninetales
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Найнтэйлс]
+	(* <- lang_ru;;	*);
+	[Ninetales]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Найнтэйлс)](*<-lang_ru;;*);
+		[Description (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Найнтэйлс)](*<-lang_ru;;*);
+		[Appearance (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Найнтэйлс)](*<-lang_ru;;*);
+		[Behavior (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Найнтэйлс)](*<-lang_ru;;*);
+		[Natural ability (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Найнтэйлс)](*<-lang_ru;;*);
+		[Habitat (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ninetales_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_ninetales <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Найнтэйлс)](*<-lang_ru;;*);
+		[Pic. (Ninetales)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_ninetales.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_ninetales 
+=> nrel_pokemon_type: concept_fire_type;;
+
+concept_pokemon_ninetales 
+=> nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 38;;
+concept_pokemon_ninetales => nrel_pokedex_number: 38;;
+
+value -> 1.1;;
+concept_pokemon_ninetales => nrel_height: 1.1;;
+
+value -> 19.9;;
+concept_pokemon_ninetales => nrel_weight: 19.9;;
