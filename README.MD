@@ -220,4 +220,6 @@
 	Хорси + concept_pokemon_horsea => Сеадра + concept_pokemon_seadra => Кингдра + concept_pokemon_kingdra
 
 	Зубат + concept_pokemon_zubat => Голбат + concept_pokemon_golbat => Кробат + concept_pokemon_crobat
+
+	Геодуд + concept_pokemon_geodude => Гравелер + concept_pokemon_graveler => Голем + concept_pokemon_golem
 	
