@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_graveler;;
+
+concept_pokemon_graveler
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гравелер]
+	(* <- lang_ru;;	*);
+	[Graveler]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гравелер)](*<-lang_ru;;*);
+		[Description (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_graveler_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_graveler_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Гравелер)](*<-lang_ru;;*);
+		[Appearance (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_graveler_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_graveler_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Гравелер)](*<-lang_ru;;*);
+		[Behavior (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_graveler_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_graveler_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Гравелер)](*<-lang_ru;;*);
+		[Natural ability (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_graveler_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_graveler_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Гравелер)](*<-lang_ru;;*);
+		[Habitat (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_graveler_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_graveler_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_graveler <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гравелер)](*<-lang_ru;;*);
+		[Pic. (Graveler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_graveler.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_graveler
+=> nrel_pokemon_evolution: concept_pokemon_golem;;
+
+concept_pokemon_graveler 
+=> nrel_pokemon_type: concept_rock_type;
+=> nrel_pokemon_type: concept_ground_type;;
+
+concept_pokemon_graveler 
+=> nrel_color_in_pokedex: concept_color_brown;;
+
+value -> 75;;
+concept_pokemon_graveler => nrel_pokedex_number: 75;;
+
+value -> 0.99;;
+concept_pokemon_graveler => nrel_height: 0.99;;
+
+value -> 105.21;;
+concept_pokemon_graveler => nrel_weight: 105.21;;
