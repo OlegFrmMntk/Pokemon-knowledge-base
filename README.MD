@@ -225,3 +225,5 @@
 
 	Оникс + concept_pokemon_onix => Стиликс + concept_pokemon_steelix
 	
+	Вульпикс + concept_pokemon_vulpix => Найнтэйлс + concept_pokemon_ninetales
+	
