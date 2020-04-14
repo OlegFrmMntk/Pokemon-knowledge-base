@@ -1,0 +1,105 @@
+concept_pokemon -> concept_pokemon_steelix;;
+
+concept_pokemon_steelix
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Стиликс]
+	(* <- lang_ru;;	*);
+	[Steelix]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Стиликс)](*<-lang_ru;;*);
+		[Description (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_steelix_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_steelix_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Стиликс)](*<-lang_ru;;*);
+		[Appearance (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_steelix_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_steelix_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Стиликс)](*<-lang_ru;;*);
+		[Behavior (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_steelix_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_steelix_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Стиликс)](*<-lang_ru;;*);
+		[Natural ability (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_steelix_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_steelix_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Стиликс)](*<-lang_ru;;*);
+		[Habitat (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_steelix_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_steelix_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_steelix <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стиликс)](*<-lang_ru;;*);
+		[Pic. (Steelix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_steelix.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_steelix 
+=> nrel_pokemon_type: concept_ground_type;
+=> nrel_pokemon_type: concept_steel_type;;
+
+concept_pokemon_steelix 
+=> nrel_color_in_pokedex: concept_color_gray;;
+
+value -> 208;;
+concept_pokemon_steelix => nrel_pokedex_number: 208;;
+
+value -> 9.19;;
+concept_pokemon_steelix => nrel_height: 9.19;;
+
+value -> 399.9;;
+concept_pokemon_steelix => nrel_weight: 399.9;;
