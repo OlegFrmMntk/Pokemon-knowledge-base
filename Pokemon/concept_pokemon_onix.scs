@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_onix;;
+
+concept_pokemon_onix
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Оникс]
+	(* <- lang_ru;;	*);
+	[Onix]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Оникс)](*<-lang_ru;;*);
+		[Description (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_onix_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_onix_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Оникс)](*<-lang_ru;;*);
+		[Appearance (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_onix_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_onix_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Оникс)](*<-lang_ru;;*);
+		[Behavior (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_onix_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_onix_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Оникс)](*<-lang_ru;;*);
+		[Natural ability (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_onix_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_onix_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Оникс)](*<-lang_ru;;*);
+		[Habitat (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_onix_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_onix_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_onix <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Оникс)](*<-lang_ru;;*);
+		[Pic. (Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_onix.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_onix
+=> nrel_pokemon_evolution: concept_pokemon_steelix;;
+
+concept_pokemon_onix 
+=> nrel_pokemon_type: concept_rock_type;
+=> nrel_pokemon_type: concept_ground_type;;
+
+concept_pokemon_onix 
+=> nrel_color_in_pokedex: concept_color_gray;;
+
+value -> 95;;
+concept_pokemon_onix => nrel_pokedex_number: 95;;
+
+value -> 8.8;;
+concept_pokemon_onix => nrel_height: 8.8;;
+
+value -> 210.5;;
+concept_pokemon_onix => nrel_weight: 210.5;;

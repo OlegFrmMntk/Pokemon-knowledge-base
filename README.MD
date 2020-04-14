@@ -222,4 +222,6 @@
 	Зубат + concept_pokemon_zubat => Голбат + concept_pokemon_golbat => Кробат + concept_pokemon_crobat
 
 	Геодуд + concept_pokemon_geodude => Гравелер + concept_pokemon_graveler => Голем + concept_pokemon_golem
+
+	Оникс + concept_pokemon_onix => Стиликс + concept_pokemon_steelix
 	
