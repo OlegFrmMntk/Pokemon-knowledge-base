@@ -1,0 +1,78 @@
+concept_anime_character -> Ash_Ketchum;;
+
+Ash_Ketchum
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эш Кетчум]
+	(* <- lang_ru;;	*);
+	[Ash Ketchum]
+	(* <- lang_en;;	*);;
+	
+Ash_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эш Кетчум)](*<-lang_ru;;*);
+		[Description (Ash Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ash_Ketchum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Ash_Ketchum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Эш Кетчум)](*<-lang_ru;;*);
+		[Appearance (Ash Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ash_Ketchum_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Ash_Ketchum_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Ash_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Эш Кетчум)](*<-lang_ru;;*);
+		[Character (Ash Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ash_Ketchum_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Ash_Ketchum_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Эш Кетчум)](*<-lang_ru;;*);
+		[Ability (Ash Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ash_Ketchum_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Ash_Ketchum_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Ketchum <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эш Кетчум)](*<-lang_ru;;*);
+		[Pic. (Ash Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ash_Ketchum.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Ketchum
+=> nrel_keywords: male;
+=> nrel_keywords: concept_pokemon_trainer;;
