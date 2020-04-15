@@ -66,7 +66,7 @@
 
 	Сиил -> Дьюгонг + Misty_Dewgong
 
-	Голдин
+	Голдин + Misty_Goldeen
 
 	Псайдак
 

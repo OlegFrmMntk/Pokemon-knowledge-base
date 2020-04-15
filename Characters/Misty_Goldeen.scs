@@ -1,0 +1,63 @@
+concept_pokemon_goldeen -> Misty_Goldeen;;
+
+Misty_Goldeen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Голдин Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Goldeen]
+	(* <- lang_en;;	*);;
+	
+Misty_Goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Голдин Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Goldeen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Goldeen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*
+Misty_Goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Голдин Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Goldeen_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Goldeen_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+*/
+Misty_Goldeen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Голдин Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Goldeen_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Goldeen_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Goldeen <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Голдин Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Goldeen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Goldeen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Goldeen
+=> nrel_keywords: female;;
