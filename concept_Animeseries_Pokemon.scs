@@ -55,7 +55,10 @@ Pokemon_series => nrel_no_countries : 74;;
 
 Pokemon_series => nrel_age_rating: concept_PG12;;
 
-Pokemon_series => nrel_anime_character : Ash_Ketchum;;
+Pokemon_series 
+=> nrel_anime_character : Ash_Ketchum;
+=> nrel_anime_character : Ash_Pikachu;;
+
 
 Pokemon_series 
 => nrel_screenwriter: Junichi_Masuda;

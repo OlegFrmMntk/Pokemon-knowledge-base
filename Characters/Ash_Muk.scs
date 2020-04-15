@@ -1,0 +1,66 @@
+concept_pokemon_muk -> Ash_Muk;;
+
+Ash_Muk
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мак Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Muk]
+	(* <- lang_en;;	*);;
+	
+Ash_Muk <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мак Эша)](*<-lang_ru;;*);
+		[Description (Ash's Muk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Muk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Muk_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Muk <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Мак Эша)](*<-lang_ru;;*);
+		[Character (Ash's Muk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Muk_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Muk_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Muk <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Мак Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Muk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Muk_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Muk_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Muk <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мак Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Muk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Muk.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Muk
+=> nrel_keywords: male;;
+
+Ash_Muk
+=> nrel_pokemon_trainer: Ash_Ketchum;;

@@ -1,4 +1,4 @@
-concept_pokemon_Charizard -> Ash_Charizard;;
+concept_pokemon_charizard -> Ash_Charizard;;
 
 Ash_Charizard
 <- sc_node_not_relation;
