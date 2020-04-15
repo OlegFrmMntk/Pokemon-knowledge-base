@@ -1,0 +1,63 @@
+concept_pokemon_psyduck -> Misty_Psyduck;;
+
+Misty_Psyduck
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Псайдак Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Psyduck]
+	(* <- lang_en;;	*);;
+	
+Misty_Psyduck <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Псайдак Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Psyduck)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Psyduck_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Psyduck_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Psyduck <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Псайдак Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Psyduck)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Psyduck_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Psyduck_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Psyduck <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Псайдак Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Psyduck)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Psyduck_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Psyduck_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Psyduck <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Псайдак Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Psyduck)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Psyduck.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Psyduck
+=> nrel_keywords: male;;

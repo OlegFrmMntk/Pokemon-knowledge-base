@@ -68,9 +68,9 @@
 
 	Голдин + Misty_Goldeen
 
-	Псайдак
+	Псайдак + Misty_Psyduck
 
-	Хорси
+	Хорси + Misty_Horsea
 
 Покемоны Брока:
 

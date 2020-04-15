@@ -1,0 +1,63 @@
+concept_pokemon_horsea -> Misty_Horsea;;
+
+Misty_Horsea
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хорси Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Horsea]
+	(* <- lang_en;;	*);;
+	
+Misty_Horsea <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хорси Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Horsea)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Horsea_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Horsea_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Horsea <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Хорси Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Horsea)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Horsea_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Horsea_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*
+Misty_Horsea <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Хорси Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Horsea)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Horsea_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Horsea_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+*/
+Misty_Horsea <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хорси Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Horsea)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Horsea.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Horsea
+=> nrel_keywords: male;;
