@@ -1,0 +1,78 @@
+concept_anime_character -> Garry_Oak;;
+
+Garry_Oak
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гэри Оук]
+	(* <- lang_ru;;	*);
+	[Garry Oak]
+	(* <- lang_en;;	*);;
+	
+Garry_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гэри Оук)](*<-lang_ru;;*);
+		[Description (Garry Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Garry_Oak_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Garry_Oak_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Garry_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Гэри Оук)](*<-lang_ru;;*);
+		[Appearance (Garry Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Garry_Oak_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Garry_Oak_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Garry_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Гэри Оук)](*<-lang_ru;;*);
+		[Character (Garry Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Garry_Oak_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Garry_Oak_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Garry_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Гэри Оук)](*<-lang_ru;;*);
+		[Ability (Garry Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Garry_Oak_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Garry_Oak_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Garry_Oak <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гэри Оук)](*<-lang_ru;;*);
+		[Pic. (Garry Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Garry_Oak.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Garry_Oak
+=> nrel_keywords: male;
+=> nrel_keywords: concept_pokemon_trainer;;
