@@ -1,0 +1,77 @@
+concept_anime_character -> Professor_Oak;;
+
+Professor_Oak
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Профессор Оук]
+	(* <- lang_ru;;	*);
+	[Professor Oak]
+	(* <- lang_en;;	*);;
+	
+Professor_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Профессор Оук)](*<-lang_ru;;*);
+		[Description (Professor Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Professor_Oak_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Professor_Oak_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Professor_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Профессор Оук)](*<-lang_ru;;*);
+		[Appearance (Professor Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Professor_Oak_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Professor_Oak_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Professor_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Профессор Оук)](*<-lang_ru;;*);
+		[Character (Professor Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Professor_Oak_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Professor_Oak_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Professor_Oak <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Профессор Оук)](*<-lang_ru;;*);
+		[Ability (Professor Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Professor_Oak_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Professor_Oak_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Professor_Oak <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Профессор Оук)](*<-lang_ru;;*);
+		[Pic. (Professor Oak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Professor_Oak.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Professor_Oak
+=> nrel_keywords: male;;
