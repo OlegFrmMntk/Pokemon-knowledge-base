@@ -1,0 +1,77 @@
+concept_anime_character -> Officer_Jenny;;
+
+Officer_Jenny
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Офицер Дженни]
+	(* <- lang_ru;;	*);
+	[Officer Jenny]
+	(* <- lang_en;;	*);;
+	
+Officer_Jenny <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Офицер Дженни)](*<-lang_ru;;*);
+		[Description (Officer Jenny)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Officer_Jenny_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Officer_Jenny_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Officer_Jenny <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Офицер Дженни)](*<-lang_ru;;*);
+		[Appearance (Officer Jenny)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Officer_Jenny_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Officer_Jenny_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Officer_Jenny <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Офицер Дженни)](*<-lang_ru;;*);
+		[Character (Officer Jenny)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Officer_Jenny_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Officer_Jenny_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Officer_Jenny <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Офицер Дженни)](*<-lang_ru;;*);
+		[Ability (Officer Jenny)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Officer_Jenny_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Officer_Jenny_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Officer_Jenny <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Офицер Дженни)](*<-lang_ru;;*);
+		[Pic. (Officer Jenny)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Officer_Jenny.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Officer_Jenny
+=> nrel_keywords: female;;
