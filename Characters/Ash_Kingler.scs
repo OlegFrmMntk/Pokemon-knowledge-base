@@ -1,0 +1,66 @@
+concept_pokemon_kingler -> Ash_Kingler;;
+
+Ash_Kingler
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кинглер Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Kingler]
+	(* <- lang_en;;	*);;
+	
+Ash_Kingler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кинглер Эша)](*<-lang_ru;;*);
+		[Description (Ash's Kingler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Kingler_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Kingler_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Kingler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Кинглер Эша)](*<-lang_ru;;*);
+		[Character (Ash's Kingler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Kingler_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Kingler_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Kingler <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Кинглер Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Kingler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Kingler_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Kingler_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Kingler <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кинглер Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Kingler)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Kingler.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Kingler
+=> nrel_keywords: male;;
+
+Ash_Kingler
+=> nrel_pokemon_trainer: Ash_Ketchum;;
