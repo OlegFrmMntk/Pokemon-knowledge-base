@@ -76,3 +76,14 @@ Ash_Ketchum <-rrel_key_sc_element:...
 Ash_Ketchum
 => nrel_keywords: male;
 => nrel_keywords: concept_pokemon_trainer;;
+
+Ash_Ketchum
+=> nrel_pokemon_trainer: Ash_Pikachu;
+=> nrel_pokemon_trainer: Ash_Bulbasaur;
+=> nrel_pokemon_trainer: Ash_Butterfree;
+=> nrel_pokemon_trainer: Ash_Charizard;
+=> nrel_pokemon_trainer: Ash_Muk;
+=> nrel_pokemon_trainer: Ash_Kingler;
+=> nrel_pokemon_trainer: Ash_Squirtle;
+=> nrel_pokemon_trainer: Ash_Tauros;
+=> nrel_pokemon_trainer: concept_pokemon_primeape;;
