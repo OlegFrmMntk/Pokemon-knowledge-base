@@ -1,0 +1,63 @@
+concept_pokemon_staryu -> Misty_Staryu;;
+
+Misty_Staryu
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Старью Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Staryu]
+	(* <- lang_en;;	*);;
+	
+Misty_Staryu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Старью Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Staryu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Staryu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Staryu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*
+Misty_Staryu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Старью Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Staryu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Staryu_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Staryu_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+*/
+Misty_Staryu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Старью Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Staryu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Staryu_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Staryu_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Staryu <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Старью Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Staryu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Staryu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Staryu
+=> nrel_keywords: male;;
