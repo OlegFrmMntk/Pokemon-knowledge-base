@@ -1,0 +1,37 @@
+concept_pokemon_zubat -> Brock_Zubat;;
+
+Brock_Zubat
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зубат Брока]
+	(* <- lang_ru;;	*);
+	[Brock's Zubat]
+	(* <- lang_en;;	*);;
+	
+Brock_Zubat <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Зубат Брока)](*<-lang_ru;;*);
+		[Description (Brock's Zubat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Brock_Zubat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Brock_Zubat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Brock_Zubat <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Зубат Брока)](*<-lang_ru;;*);
+		[Pic. (Brock's Zubat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Brock_Zubat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Brock_Zubat
+=> nrel_keywords: male;;

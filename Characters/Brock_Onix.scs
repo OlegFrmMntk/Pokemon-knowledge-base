@@ -1,0 +1,37 @@
+concept_pokemon_onix -> Brock_Onix;;
+
+Brock_Onix
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Оникс Брока]
+	(* <- lang_ru;;	*);
+	[Brock's Onix]
+	(* <- lang_en;;	*);;
+	
+Brock_Onix <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Оникс Брока)](*<-lang_ru;;*);
+		[Description (Brock's Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Brock_Onix_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Brock_Onix_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Brock_Onix <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Оникс Брока)](*<-lang_ru;;*);
+		[Pic. (Brock's Onix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Brock_Onix.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Brock_Onix
+=> nrel_keywords: male;;

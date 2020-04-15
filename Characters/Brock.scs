@@ -76,3 +76,9 @@ Brock <-rrel_key_sc_element:...
 Brock
 => nrel_keywords: male;
 => nrel_keywords: concept_pokemon_trainer;;
+
+Brock
+=> nrel_pokemon_trainer: Brock_Zubat;
+=> nrel_pokemon_trainer: Brock_Geodude;
+=> nrel_pokemon_trainer: Brock_Onix;
+=> nrel_pokemon_trainer: Brock_Vulpix;;

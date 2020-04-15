@@ -1,0 +1,37 @@
+concept_pokemon_geodude -> Brock_Geodude;;
+
+Brock_Geodude
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Геодуд Брока]
+	(* <- lang_ru;;	*);
+	[Brock's Geodude]
+	(* <- lang_en;;	*);;
+	
+Brock_Geodude <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Геодуд Брока)](*<-lang_ru;;*);
+		[Description (Brock's Geodude)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Brock_Geodude_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Brock_Geodude_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Brock_Geodude <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геодуд Брока)](*<-lang_ru;;*);
+		[Pic. (Brock's Geodude)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Brock_Geodude.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Brock_Geodude
+=> nrel_keywords: male;;
