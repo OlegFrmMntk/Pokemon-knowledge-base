@@ -1,0 +1,66 @@
+concept_pokemon_pikachu -> Ash_Pikachu;;
+
+Ash_Pikachu
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пикачу Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Pikachu]
+	(* <- lang_en;;	*);;
+	
+Ash_Pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пикачу Эша)](*<-lang_ru;;*);
+		[Description (Ash's Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Pikachu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Pikachu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Пикачу Эша)](*<-lang_ru;;*);
+		[Character (Ash's Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Pikachu_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Pikachu_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Pikachu <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Пикачу Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Pikachu_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Pikachu_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Pikachu <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пикачу Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Pikachu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Pikachu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Pikachu
+=> nrel_keywords: male;;
+
+Ash_Pikachu
+=> nrel_pokemon_trainer: Ash_Ketchum;;
