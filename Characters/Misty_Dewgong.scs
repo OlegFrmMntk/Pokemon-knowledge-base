@@ -1,0 +1,63 @@
+concept_pokemon_dewgong -> Misty_Dewgong;;
+
+Misty_Dewgong
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дьюгонг Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Dewgong]
+	(* <- lang_en;;	*);;
+	
+Misty_Dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дьюгонг Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Dewgong_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Dewgong_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*
+Misty_Dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Дьюгонг Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Dewgong_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Dewgong_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Dewgong <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Дьюгонг Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Dewgong_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Dewgong_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+*/
+Misty_Dewgong <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дьюгонг Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Dewgong)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Dewgong.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Dewgong
+=> nrel_keywords: female;;
