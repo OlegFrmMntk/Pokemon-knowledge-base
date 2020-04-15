@@ -1,0 +1,66 @@
+concept_pokemon_bulbasaur -> Ash_Bulbasaur;;
+
+Ash_Bulbasaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бульбазавр Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Bulbasaur]
+	(* <- lang_en;;	*);;
+	
+Ash_Bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бульбазавр Эша)](*<-lang_ru;;*);
+		[Description (Ash's Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Bulbasaur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Bulbasaur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Бульбазавр Эша)](*<-lang_ru;;*);
+		[Character (Ash's Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Bulbasaur_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Bulbasaur_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Bulbasaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Бульбазавр Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Bulbasaur_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Bulbasaur_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Bulbasaur <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бульбазавр Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Bulbasaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Bulbasaur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Bulbasaur
+=> nrel_keywords: male;;
+
+Ash_Bulbasaur
+=> nrel_pokemon_trainer: Ash_Ketchum;;

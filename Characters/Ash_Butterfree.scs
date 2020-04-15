@@ -1,0 +1,66 @@
+concept_pokemon_butterfree -> Ash_Butterfree;;
+
+Ash_Butterfree
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Баттерфри Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Butterfree]
+	(* <- lang_en;;	*);;
+	
+Ash_Butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Баттерфри Эша)](*<-lang_ru;;*);
+		[Description (Ash's Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Butterfree_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Butterfree_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Баттерфри Эша)](*<-lang_ru;;*);
+		[Character (Ash's Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Butterfree_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Butterfree_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Butterfree <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Баттерфри Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Butterfree_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Butterfree_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Butterfree <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Баттерфри Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Butterfree)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Butterfree.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Butterfree
+=> nrel_keywords: male;;
+
+Ash_Butterfree
+=> nrel_pokemon_trainer: Ash_Ketchum;;
