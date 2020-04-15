@@ -1,0 +1,77 @@
+concept_anime_character -> Sister_Joy;;
+
+Sister_Joy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сестра Джой]
+	(* <- lang_ru;;	*);
+	[Sister Joy]
+	(* <- lang_en;;	*);;
+	
+Sister_Joy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сестра Джой)](*<-lang_ru;;*);
+		[Description (Sister Joy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sister_Joy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sister_Joy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sister_Joy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Сестра Джой)](*<-lang_ru;;*);
+		[Appearance (Sister Joy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sister_Joy_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sister_Joy_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Sister_Joy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Сестра Джой)](*<-lang_ru;;*);
+		[Character (Sister Joy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sister_Joy_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sister_Joy_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sister_Joy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Сестра Джой)](*<-lang_ru;;*);
+		[Ability (Sister Joy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sister_Joy_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sister_Joy_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sister_Joy <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сестра Джой)](*<-lang_ru;;*);
+		[Pic. (Sister Joy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Sister_Joy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Sister_Joy
+=> nrel_keywords: female;;
