@@ -1,0 +1,60 @@
+concept_pokemon_starmie -> Misty_Starmie;;
+
+Misty_Starmie
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Старми Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Starmie]
+	(* <- lang_en;;	*);;
+	
+Misty_Starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Старми Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Starmie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Starmie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*
+Misty_Starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Старми Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Starmie_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Starmie_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+*/
+Misty_Starmie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Старми Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Starmie_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Starmie_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Starmie <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Старми Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Starmie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Starmie.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -58,6 +58,3 @@ Misty_Staryu <-rrel_key_sc_element:...
 		->rrel_example: "file://IMG/Misty_Staryu.jpg"(*=>nrel_format:format_jpg;;*);;
 	*);;
 *);;
-
-Misty_Staryu
-=> nrel_keywords: male;;
