@@ -1,0 +1,63 @@
+concept_pokemon_togetic -> Misty_Togetic;;
+
+Misty_Togetic
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тогетик Мисти]
+	(* <- lang_ru;;	*);
+	[Misty's Togetic]
+	(* <- lang_en;;	*);;
+	
+Misty_Togetic <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тогетик Мисти)](*<-lang_ru;;*);
+		[Description (Misty's Togetic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Togepi_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Togepi_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Togetic <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Тогетик Мисти)](*<-lang_ru;;*);
+		[Character (Misty's Togetic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Togepi_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Togepi_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Togetic <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Тогетик Мисти)](*<-lang_ru;;*);
+		[Abilities (Misty's Togetic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misty_Togepi_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misty_Togepi_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misty_Togetic <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тогетик Мисти)](*<-lang_ru;;*);
+		[Pic. (Misty's Togetic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misty_Togetic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Misty_Togetic
+=> nrel_keywords: male;;
