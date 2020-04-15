@@ -1,0 +1,78 @@
+concept_anime_character -> Jassy;;
+
+Jassy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джесси]
+	(* <- lang_ru;;	*);
+	[Jassy]
+	(* <- lang_en;;	*);;
+	
+Jassy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джесси)](*<-lang_ru;;*);
+		[Description (Jassy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jassy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jassy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jassy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Джесси)](*<-lang_ru;;*);
+		[Appearance (Jassy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jassy_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jassy_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Jassy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Джесси)](*<-lang_ru;;*);
+		[Character (Jassy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jassy_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jassy_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jassy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способность (Джесси)](*<-lang_ru;;*);
+		[Ability (Jassy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jassy_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jassy_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jassy <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джесси)](*<-lang_ru;;*);
+		[Pic. (Jassy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jassy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Jassy
+=> nrel_keywords: female;
+=> nrel_keywords: concept_pokemon_trainer;;
