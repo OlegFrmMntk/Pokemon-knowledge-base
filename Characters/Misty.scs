@@ -76,3 +76,12 @@ Misty <-rrel_key_sc_element:...
 Misty
 => nrel_keywords: female;
 => nrel_keywords: concept_pokemon_trainer;;
+
+Misty
+=> nrel_pokemon_trainer: Misty_Togetic;
+=> nrel_pokemon_trainer: Misty_Staryu;
+=> nrel_pokemon_trainer: Misty_Starmie;
+=> nrel_pokemon_trainer: Misty_Dewgong;
+=> nrel_pokemon_trainer: Misty_Goldeen;
+=> nrel_pokemon_trainer: Misty_Psyduck;
+=> nrel_pokemon_trainer: Misty_Horsea;;

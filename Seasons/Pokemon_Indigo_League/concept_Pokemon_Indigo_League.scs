@@ -49,7 +49,8 @@ Pokemon_Indigo_League => nrel_num_of_episodes: 80;;
 
 Pokemon_Indigo_League => nrel_age_rating: concept_PG12;;
 
-Pokemon_Indigo_League 
+Pokemon_Indigo_League
+=> nrel_anime_character : Ash_Pikachu;
 => nrel_anime_character : Ash_Ketchum;
 => nrel_anime_character : Misty;
 => nrel_anime_character : Brock;
