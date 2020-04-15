@@ -1,0 +1,66 @@
+concept_pokemon_Charizard -> Ash_Charizard;;
+
+Ash_Charizard
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чаризард Эша]
+	(* <- lang_ru;;	*);
+	[Ash's Charizard]
+	(* <- lang_en;;	*);;
+	
+Ash_Charizard <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чаризард Эша)](*<-lang_ru;;*);
+		[Description (Ash's Charizard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Charizard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Charizard_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Charizard <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Чаризард Эша)](*<-lang_ru;;*);
+		[Character (Ash's Charizard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Charizard_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Charizard_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Charizard <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Способности (Чаризард Эша)](*<-lang_ru;;*);
+		[Abilities (Ash's Charizard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ash_Charizard_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Charizard_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ash_Charizard <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чаризард Эша)](*<-lang_ru;;*);
+		[Pic. (Ash's Charizard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ash_Charizard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ash_Charizard
+=> nrel_keywords: male;;
+
+Ash_Charizard
+=> nrel_pokemon_trainer: Ash_Ketchum;;
