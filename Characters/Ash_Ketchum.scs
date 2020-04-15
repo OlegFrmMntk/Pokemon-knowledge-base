@@ -16,8 +16,8 @@ Ash_Ketchum <-rrel_key_sc_element:...
 		[Description (Ash Ketchum)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://Ash_Ketchum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://Ash_Ketchum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
@@ -29,8 +29,8 @@ Ash_Ketchum <-rrel_key_sc_element:...
 		[Appearance (Ash Ketchum)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://Ash_Ketchum_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://Ash_Ketchum_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
@@ -43,8 +43,8 @@ Ash_Ketchum <-rrel_key_sc_element:...
 		[Character (Ash Ketchum)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://Ash_Ketchum_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://Ash_Ketchum_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
@@ -56,8 +56,8 @@ Ash_Ketchum <-rrel_key_sc_element:...
 		[Ability (Ash Ketchum)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://Ash_Ketchum_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
-		->rrel_example: "file://Ash_Ketchum_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ash_Ketchum_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
 	*);;
 *);;
 
@@ -69,7 +69,7 @@ Ash_Ketchum <-rrel_key_sc_element:...
 		[Pic. (Ash Ketchum)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
-		->rrel_example: "file://Ash_Ketchum.jpg"(*=>nrel_format:format_jpg;;*);;
+		->rrel_example: "file://IMG/Ash_Ketchum.jpg"(*=>nrel_format:format_jpg;;*);;
 	*);;
 *);;
 

@@ -14,23 +14,23 @@
 	
 	Эш Кетчум + Ash_Ketchum
 	
-	Мисти
+	Мисти + Misty
 
-	Брок
+	Брок + Brock
 	
-	Сестра Джой
+	Сестра Джой + Sister_Joy
 	
-	Офицер Дженни
+	Офицер Дженни + Officer_Jenny
 	
-	Гэри Оук
+	Гэри Оук + Garry_Oak
 	
-	Ритчи
+	Ритчи + Ritchie
 	
-	Джесси
+	Джесси + Jassy
 	
-	Джеймс
+	Джеймс + James
 	
-	Профессор Оук	
+	Профессор Оук + Professor_Oak	
  
 Покемон + concept_pokemon
 
