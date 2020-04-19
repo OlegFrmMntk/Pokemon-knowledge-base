@@ -1,0 +1,63 @@
+concept_pokemon_meowth -> Meowth;;
+
+Meowth
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мяут из команды Р]
+	(* <- lang_ru;;	*);
+	[Meowth from team Rocket]
+	(* <- lang_en;;	*);;
+	
+Meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мяут)](*<-lang_ru;;*);
+		[Description (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/TeamR_Meowth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/TeamR_Meowth_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Мяут)](*<-lang_ru;;*);
+		[Character (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/TeamR_Meowth_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/TeamR_Meowth_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Биография (Мяут)](*<-lang_ru;;*);
+		[Biography (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/TeamR_Meowth_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/TeamR_Meowth_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Meowth <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мяут)](*<-lang_ru;;*);
+		[Pic. (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/TeamR_Meowth.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Meowth
+=> nrel_keywords: male;;
