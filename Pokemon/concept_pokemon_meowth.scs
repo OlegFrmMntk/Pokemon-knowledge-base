@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_meowth;;
+
+concept_pokemon_meowth
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мяут]
+	(* <- lang_ru;;	*);
+	[Meowth]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мяут)](*<-lang_ru;;*);
+		[Description (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_meowth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_meowth_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Мяут)](*<-lang_ru;;*);
+		[Appearance (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_meowth_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_meowth_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Мяут)](*<-lang_ru;;*);
+		[Behavior (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_meowth_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_meowth_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Мяут)](*<-lang_ru;;*);
+		[Natural ability (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_meowth_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_meowth_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Мяут)](*<-lang_ru;;*);
+		[Habitat (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_meowth_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_meowth_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_meowth <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мяут)](*<-lang_ru;;*);
+		[Pic. (Meowth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_meowth.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_meowth
+=> nrel_pokemon_evolution: concept_pokemon_persian;;
+
+concept_pokemon_meowth 
+=> nrel_pokemon_type: concept_normal_type;;
+
+concept_pokemon_meowth 
+=> nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 52;;
+concept_pokemon_meowth => nrel_pokedex_number: 52;;
+
+value -> 0.41;;
+concept_pokemon_meowth => nrel_height: 0.41;;
+
+value -> 4.22;;
+concept_pokemon_meowth => nrel_weight: 4.22;;
