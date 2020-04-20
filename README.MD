@@ -1,179 +1,179 @@
 База знаний по покемонам.
 --------------
-В базе знаний описаны следующие понятия:
+**В базе знаний описаны следующие понятия**
 
 Покемон(Сериал) + Pokemon_series
 
 Сценаристы:
 
-	- Дзюнъити Масуда + Junichi_Masuda
+	Дзюнъити Масуда + Junichi_Masuda
 
-	- Кэн Сугимори + Ken_Sugimori
+	Кэн Сугимори + Ken_Sugimori
 
-	- Сатоси Тадзири + Satoshi_Tajiri
+	Сатоси Тадзири + Satoshi_Tajiri
 
 Покемон: Лига Индиго + Pokemon_Indigo_League
 
 Главные персонажи:
 	
-	- Эш Кетчум + Ash_Ketchum
+	Эш Кетчум + Ash_Ketchum
 	
-	- Мисти + Misty
+	Мисти + Misty
 
-	- Брок + Brock
+	Брок + Brock
 	
-	- Сестра Джой + Sister_Joy
+	Сестра Джой + Sister_Joy
 	
-	- Офицер Дженни + Officer_Jenny
+	Офицер Дженни + Officer_Jenny
 	
-	- Гэри Оук + Garry_Oak
+	Гэри Оук + Garry_Oak
 	
-	- Ритчи + Ritchie
+	Ритчи + Ritchie
 	
-	- Джесси + Jassy
+	Джесси + Jassy
 	
-	- Джеймс + James
+	Джеймс + James
 	
-	- Профессор Оук + Professor_Oak	
+	Профессор Оук + Professor_Oak	
  
 Покемон + concept_pokemon
 
 Покемоны Эша:
 
-	- Пикачу + Ash_Pikachu
+	Пикачу + Ash_Pikachu
 
-	- Бульбазавр + Ash_Bulbasaur
+	Бульбазавр + Ash_Bulbasaur
 
-	- Катерпи => Метапод => Баттерфри + Ash_Butterfree
+	Катерпи => Метапод => Баттерфри + Ash_Butterfree
 
-	- Чармандер => Чармилион => Чаризардa + Ash_Charizard
+	Чармандер => Чармилион => Чаризардa + Ash_Charizard
 
-	- Мак + Ash_Muk
+	Мак + Ash_Muk
 
-	- Пиджеотто => Пиджит + Ash_Pidgeot
+	Пиджеотто => Пиджит + Ash_Pidgeot
 
-	- Краби => Кинглер + Ash_Kingler
+	Краби => Кинглер + Ash_Kingler
 
-	- Сквиртл + Ash_Squirtle
+	Сквиртл + Ash_Squirtle
 
-	- Тауросы + Ash_Tauros
+	Тауросы + Ash_Tauros
 
-	- Праймейп Ash_Primeape
+	Праймейп Ash_Primeape
 
 Покемоны Мисти:
 
-	- Тогепи -> Тогетик + Misty_Togepic
+	Тогепи -> Тогетик + Misty_Togepic
 
-	- Старью + Misty_Staryu
+	Старью + Misty_Staryu
 
-	- Старми Misty_Starmie
+	Старми Misty_Starmie
 
-	- Сиил -> Дьюгонг + Misty_Dewgong
+	Сиил -> Дьюгонг + Misty_Dewgong
 
-	- Голдин + Misty_Goldeen
+	Голдин + Misty_Goldeen
 
-	- Псайдак + Misty_Psyduck
+	Псайдак + Misty_Psyduck
 
-	- Хорси + Misty_Horsea
+	Хорси + Misty_Horsea
 
 Покемоны Брока:
 
-	- Зубат + Brock_Zubat
+	Зубат + Brock_Zubat
 
-	- Геодуд + Brock_Geodude
+	Геодуд + Brock_Geodude
 
-	- Оникс + Brock_Onix
+	Оникс + Brock_Onix
 
-	- Вульпикс + Brock_Vulpix
+	Вульпикс + Brock_Vulpix
 
 Покемоны команды Р:
 
-	- Мяут + Meowth
+	Мяут + Meowth
 
-	- Ликитунг
+	Ликитунг
 
-	- Эканс
+	Эканс
 
-	- Аброк
+	Аброк
 
-	- Шелдер
+	Шелдер
 
-	- Коффинг
+	Коффинг
 
-	- Визинг
+	Визинг
 
-	- Мэджикарп
+	Мэджикарп
 
-	- Гуярдос
+	Гуярдос
 
-	- Виктрибелл
+	Виктрибелл
 
-	- Гроули
+	Гроули
 
 Основные понятия:
 
-	- Покедекс + concept_pokedex
+	Покедекс + concept_pokedex
 
-	- Тип покемона + concept_pokemon_type
+	Тип покемона + concept_pokemon_type
 
-	- Способность покемона + concept_pokemon_ability
+	Способность покемона + concept_pokemon_ability
 
-	- Тренер покемонов + concept_pokemon_trainer
+	Тренер покемонов + concept_pokemon_trainer
 
-	- эволюция* + nrel_pokemon_evolution
+	эволюция* + nrel_pokemon_evolution
 
-	- Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green,
+	Основные цвета + concept_color_red, concept_color_blue, concept_color_yellow, concept_color_green,
                          concept_color_black, concept_color_brown, concept_color_purple, 
 			 concept_color_gray, concept_color_white, concept_color_pink
 	
-	- тип покемона* + nrel_pokemon_type
+	тип покемона* + nrel_pokemon_type
 
-	- тренер* + nrel_pokemon_trainer	
+	тренер* + nrel_pokemon_trainer	
 	
-	- имеет* + nrel_have
+	имеет* + nrel_have
 
-	- номер в покедексе* + nrel_pokedex_number
+	номер в покедексе* + nrel_pokedex_number
 
-	- масса* + nrel_weight
+	масса* + nrel_weight
 
-	- рост* + nrel_height
+	рост* + nrel_height
 
-	- цвет в покедексе* + nrel_color_in_pokedex
+	цвет в покедексе* + nrel_color_in_pokedex
 Типы:
 
-	- Нормальный тип + concept_normal_type
+	Нормальный тип + concept_normal_type
 
-	- Боевой тип + concept_fighing_type
+	Боевой тип + concept_fighing_type
 
-	- Летающий тип + concept_flying_type
+	Летающий тип + concept_flying_type
 
-	- Ядовитый тип + concept_poison_type
+	Ядовитый тип + concept_poison_type
 
-	- Земляной тип + concept_ground_type
+	Земляной тип + concept_ground_type
 
-	- Каменный тип + concept_rock_type
+	Каменный тип + concept_rock_type
 
-	- Насекомый тип + concept_bug_type
+	Насекомый тип + concept_bug_type
 
-	- Стальной тип + concept_steel_type
+	Стальной тип + concept_steel_type
 
-	- Волшебный тип + concept_fairy_type
+	Волшебный тип + concept_fairy_type
 
-	- Огненный тип + concept_fire_type
+	Огненный тип + concept_fire_type
 
-	- Водный тип + concept_water_type
+	Водный тип + concept_water_type
 
-	- Травянной тип + concept_grass_type
+	Травянной тип + concept_grass_type
 
-	- Электрический тип + concept_electric_type
+	Электрический тип + concept_electric_type
 
-	- Психический тип + concept_psychic_type
+	Психический тип + concept_psychic_type
 		
-	- Ледяной тип + concept_ice_type
+	Ледяной тип + concept_ice_type
 
-	- Драконий тип + concept_dragon_type
+	Драконий тип + concept_dragon_type
 	
-	- Тёмный тип + concept_dark_type
+	Тёмный тип + concept_dark_type
 
 Покемоны: 
 
