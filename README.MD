@@ -4,6 +4,8 @@
 
 Покемон(Сериал) + Pokemon_series
 
+Покемон: Лига Индиго + Pokemon_Indigo_League
+
 Сценаристы:
 
 	Дзюнъити Масуда + Junichi_Masuda
@@ -11,8 +13,6 @@
 	Кэн Сугимори + Ken_Sugimori
 
 	Сатоси Тадзири + Satoshi_Tajiri
-
-Покемон: Лига Индиго + Pokemon_Indigo_League
 
 Главные персонажи:
 	
@@ -36,8 +36,6 @@
 	
 	Профессор Оук + Professor_Oak	
  
-Покемон + concept_pokemon
-
 Покемоны Эша:
 
 	Пикачу + Ash_Pikachu
@@ -112,6 +110,8 @@
 
 Основные понятия:
 
+	Покемон + concept_pokemon
+
 	Покедекс + concept_pokedex
 
 	Тип покемона + concept_pokemon_type
@@ -139,6 +139,7 @@
 	рост* + nrel_height
 
 	цвет в покедексе* + nrel_color_in_pokedex
+
 Типы:
 
 	Нормальный тип + concept_normal_type
