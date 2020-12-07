@@ -1,0 +1,102 @@
+concept_episode -> Pokemon_Indigo_League_episode_1;;
+
+Pokemon_Indigo_League_episode_1
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эп.1: Покемон! Я выбираю тебя!]
+	(* <- lang_ru;;	*);
+	[Ep.1: Pokemon! I choose you!]
+	(* <- lang_en;;	*);;
+
+Pokemon_Indigo_League_episode_1 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эп.1: Покемон! Я выбираю тебя!)](*<-lang_ru;;*);
+		[Description (Ep.1: Pokemon! I choose you!)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_1_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_1_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_1 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Важные события (Эп.1: Покемон! Я выбираю тебя!)](*<-lang_ru;;*);
+		[Important events (Ep.1: Pokemon! I choose you!)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_1_important_events_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_1_important_events_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_1 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эп.1: Покемон! Я выбираю тебя!)](*<-lang_ru;;*);
+		[Pic. (Ep.1: Pokemon! I choose you!)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_1
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_1 => nrel_production_year : 1997;;
+
+Pokemon_Indigo_League_episode_1 
+=> nrel_anime_character : Ash_Ketchum;   
+=> nrel_anime_character : Misty;  
+=> nrel_anime_character : Garry_Oak;
+=> nrel_anime_character : Delia_Ketchum;
+=> nrel_anime_character : Professor_Oak;;
+
+Pokemon_Indigo_League_episode_1
+=> nrel_pokemon_character : concept_pokemon_nidoriino;
+=> nrel_pokemon_character : concept_pokemon_gengar;
+=> nrel_pokemon_character : concept_pokemon_onix;
+=> nrel_pokemon_character : concept_pokemon_squirtle;
+=> nrel_pokemon_character : concept_pokemon_charmander;
+=> nrel_pokemon_character : concept_pokemon_bulbasaur;
+=> nrel_pokemon_character : concept_pokemon_pikachu;
+=> nrel_pokemon_character : concept_pokemon_rattata;
+=> nrel_pokemon_character : concept_pokemon_pidgey;
+=> nrel_pokemon_character : concept_pokemon_spearow;
+=> nrel_pokemon_character : concept_pokemon_ho_oh;;
+
+Pokemon_Indigo_League_episode_1 => nrel_production_country : Japan;;
+
+Pokemon_Indigo_League_episode_1
+=> nrel_town: pallet_town;;
+
+Pokemon_Indigo_League_episode_1
+=> nrel_screenwriter: Takeshi_Shudo;;
+
+Pokemon_Indigo_League_episode_1
+=> nrel_season: Pokemon_Indigo_League;;
+
+
+

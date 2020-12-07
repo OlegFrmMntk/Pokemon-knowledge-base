@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_nidoking;;
+
+concept_pokemon_nidoking
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Нидокинг]
+	(* <- lang_ru;;	*);
+	[Nidoking]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Нидокинг)](*<-lang_ru;;*);
+		[Description (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Нидокинг)](*<-lang_ru;;*);
+		[Appearance (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Нидокинг)](*<-lang_ru;;*);
+		[Behavior (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Нидокинг)](*<-lang_ru;;*);
+		[Natural ability (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Нидокинг)](*<-lang_ru;;*);
+		[Habitat (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoking_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*  */
+
+concept_pokemon_nidoking <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Нидокинг)](*<-lang_ru;;*);
+		[Pic. (Nidoking)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_nidoking.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_nidoking 
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_nidoking 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 34;;
+concept_pokemon_nidoking => nrel_pokedex_number: 34;;
+
+value -> 1.4;;
+concept_pokemon_nidoking => nrel_height: 1.4;;
+
+value -> 62;;
+concept_pokemon_nidoking => nrel_weight: 62;;

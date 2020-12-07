@@ -1,0 +1,93 @@
+concept_pokemon -> concept_pokemon_mr_mime;;
+
+concept_pokemon_mr_mime
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мистер Майм]
+	(* <- lang_ru;;	*);
+	[Mister Mime]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_mr_mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мистер Майм)](*<-lang_ru;;*);
+		[Description (Mister Mime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mr_mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Мистер Майм)](*<-lang_ru;;*);
+		[Appearance (Mister Mime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_mr_mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Мистер Майм)](*<-lang_ru;;*);
+		[Behavior (Mister Mime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mr_mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Мистер Майм)](*<-lang_ru;;*);
+		[Natural ability (Mister Mime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_mr_mime_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_mr_mime <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мистер Майм)](*<-lang_ru;;*);
+		[Pic. (Mister Mime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_mr_mime.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_mr_mime 
+=> nrel_pokemon_type: concept_psychic_type;;
+
+concept_pokemon_mr_mime 
+=> nrel_pokemon_type: concept_fairy_type;;
+
+concept_pokemon_mr_mime 
+=> nrel_color_in_pokedex: concept_color_pink;;
+
+value -> 122;;
+concept_pokemon_mr_mime => nrel_pokedex_number: 122;;
+
+value -> 1.3;;
+concept_pokemon_mr_mime => nrel_height: 1.3;;
+
+value -> 54;;
+concept_pokemon_mr_mime => nrel_weight: 54;;

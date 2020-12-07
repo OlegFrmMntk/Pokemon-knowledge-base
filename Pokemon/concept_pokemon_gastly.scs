@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_gastly;;
+
+concept_pokemon_gastly
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гастли]
+	(* <- lang_ru;;	*);
+	[Gastly]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гастли)](*<-lang_ru;;*);
+		[Description (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_gastly_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_gastly_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Гастли)](*<-lang_ru;;*);
+		[Appearance (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_gastly_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_gastly_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Гастли)](*<-lang_ru;;*);
+		[Behavior (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_gastly_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_gastly_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Гастли)](*<-lang_ru;;*);
+		[Natural ability (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_gastly_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_gastly_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Гастли)](*<-lang_ru;;*);
+		[Habitat (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_gastly_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_gastly_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*  */
+
+concept_pokemon_gastly <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гастли)](*<-lang_ru;;*);
+		[Pic. (Gastly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_gastly.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_gastly
+=> nrel_pokemon_evolution: concept_pokemon_haunter;;
+
+concept_pokemon_gastly 
+=> nrel_pokemon_type: concept_ghost_type;
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_gastly 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 92;;
+concept_pokemon_gastly => nrel_pokedex_number: 92;;
+
+value -> 1.3;;
+concept_pokemon_gastly => nrel_height: 1.3;;
+
+value -> 0.09;;
+concept_pokemon_gastly => nrel_weight: 0.09;;

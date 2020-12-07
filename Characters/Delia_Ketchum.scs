@@ -1,0 +1,87 @@
+concept_anime_character -> Delia_Ketchum;;
+
+Delia_Ketchum
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Делия Кетчум]
+	(* <- lang_ru;;	*);
+	[Delia Ketchum]
+	(* <- lang_en;;	*);;
+	
+Delia_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Делия Кетчум)](*<-lang_ru;;*);
+		[Description (Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Delia_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Делия Кетчум)](*<-lang_ru;;*);
+		[Appearance (Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Delia_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Делия Кетчум)](*<-lang_ru;;*);
+		[Character (Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Delia_Ketchum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Биография (Делия Кетчум)](*<-lang_ru;;*);
+		[Biography (Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_biography_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_biography_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Delia_Ketchum <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Делия Кетчум)](*<-lang_ru;;*);
+		[Pic. (Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Delia_Ketchum.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Delia_Ketchum
+=> nrel_keywords: female;
+=> nrel_keywords: concept_anime_character;;
+
+value -> 29;;
+Delia_Ketchum => rrel_age: 29;;
+
+Delia_Ketchum 
+=> nrel_pokemon_trainer: Delia_Ketchum_Mr_Mime;;
+
+Delia_Ketchum
+=> nrel_town : pallet_town;;

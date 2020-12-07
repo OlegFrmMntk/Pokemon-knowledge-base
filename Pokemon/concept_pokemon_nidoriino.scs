@@ -1,0 +1,106 @@
+concept_pokemon -> concept_pokemon_nidoriino;;
+
+concept_pokemon_nidoriino
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Нидорино]
+	(* <- lang_ru;;	*);
+	[Nidoriino]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Нидорино)](*<-lang_ru;;*);
+		[Description (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Нидорино)](*<-lang_ru;;*);
+		[Appearance (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Нидорино)](*<-lang_ru;;*);
+		[Behavior (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Нидорино)](*<-lang_ru;;*);
+		[Natural ability (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Нидорино)](*<-lang_ru;;*);
+		[Habitat (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_nidoriino_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_nidoriino <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Нидорино)](*<-lang_ru;;*);
+		[Pic. (Nidoriino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_nidoriino.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_nidoriino
+=> nrel_pokemon_evolution: concept_pokemon_nidoking;;
+
+concept_pokemon_nidoriino 
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_nidoriino 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 33;;
+concept_pokemon_nidoriino => nrel_pokedex_number: 33;;
+
+value -> 0.9;;
+concept_pokemon_nidoriino => nrel_height: 0.9;;
+
+value -> 19.5;;
+concept_pokemon_nidoriino => nrel_weight: 19.5;;

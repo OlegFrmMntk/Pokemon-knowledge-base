@@ -1,0 +1,76 @@
+concept_pokemon -> concept_pokemon_blissy;;
+
+concept_pokemon_blissy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Блисси]
+	(* <- lang_ru;;	*);
+	[Blissy]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_blissy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Блисси)](*<-lang_ru;;*);
+		[Description (Blissy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blissy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blissy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_blissy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Блисси)](*<-lang_ru;;*);
+		[Behavior (Blissy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blissy_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blissy_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_blissy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Блисси)](*<-lang_ru;;*);
+		[Habitat (Blissy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blissy_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blissy_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_blissy <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блисси)](*<-lang_ru;;*);
+		[Pic. (Blissy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_blissy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_blissy 
+=> nrel_pokemon_type: concept_normal_type;;
+
+concept_pokemon_blissy 
+=> nrel_color_in_pokedex: concept_color_pink;;
+
+value -> 242;;
+concept_pokemon_blissy => nrel_pokedex_number: 242;;
+
+value -> 1.5;;
+concept_pokemon_blissy => nrel_height: 1.5;;
+
+value -> 46.8;;
+concept_pokemon_blissy => nrel_weight: 46.8;;

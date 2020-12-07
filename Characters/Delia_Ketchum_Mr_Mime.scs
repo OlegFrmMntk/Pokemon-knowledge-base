@@ -1,0 +1,64 @@
+concept_pokemon_mr_mime -> Delia_Ketchum_Mr_Mime;;
+
+Delia_Ketchum_Mr_Mime
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мистер Майм Делии Кетчум]
+	(* <- lang_ru;;	*);
+	[Mr. Mayme Delia Ketchum]
+	(* <- lang_en;;	*);;
+	
+Delia_Ketchum_Mr_Mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мистер Майм Делии Кетчум)](*<-lang_ru;;*);
+		[Description (Mr. Mayme Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Delia_Ketchum_Mr_Mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Мистер Майм Делии Кетчум)](*<-lang_ru;;*);
+		[Appearance (Mr. Mayme Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Delia_Ketchum_Mr_Mime <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Мистер Майм Делии Кетчум)](*<-lang_ru;;*);
+		[Character (Mr. Mayme Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Delia_Ketchum_Mr_Mime_character_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Delia_Ketchum_Mr_Mime <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мистер Майм Делии Кетчум)](*<-lang_ru;;*);
+		[Pic. (Mr. Mayme Delia Ketchum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Delia_Ketchum_Mr_Mime.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Delia_Ketchum_Mr_Mime
+=> nrel_keywords: male;;

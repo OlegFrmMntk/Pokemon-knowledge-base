@@ -1,0 +1,109 @@
+concept_series -> Pokemon_Indigo_League_episode_2;;
+
+Pokemon_Indigo_League_episode_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покемон: Лига Индиго Серия 2]
+	(* <- lang_ru;;	*);
+	[Pokemon: Indigo League Series 2]
+	(* <- lang_en;;	*);;
+	
+Pokemon_Indigo_League_episode_2 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покемон: Лига Индиго Серия 2)](*<-lang_ru;;*);
+		[Description (Pokemon: Indigo League Series 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_2 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Сюжет (Покемон: Лига Индиго Серия 2)](*<-lang_ru;;*);
+		[Plot (Pokemon: Indigo League Series 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_plot_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_plot_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_2 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Интересные факты (Покемон: Лига Индиго Серия 2)](*<-lang_ru;;*);
+		[Interesting facts (Pokemon: Indigo League Series 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_interesting_facts_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_2_interesting_facts_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_2 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Покемон: Лига Индиго Серия 2)](*<-lang_ru;;*);
+		[Pic. (Pokemon: Indigo League Series 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Pokemon_Indigo_League_episode_2 => nrel_production_country : Japan;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_2 => nrel_production_year : 1997;;
+	
+Pokemon_Indigo_League_episode_2 => nrel_age_rating: concept_PG12;;
+
+Pokemon_Indigo_League_episode_2
+=> nrel_anime_character : Ash_Pikachu;
+=> nrel_anime_character : Ash_Ketchum;
+=> nrel_anime_character : Misty;
+=> nrel_anime_character : Sister_Joy;
+=> nrel_anime_character : Officer_Jenny;
+=> nrel_anime_character : Garry_Oak;
+=> nrel_anime_character : Jassy;
+=> nrel_anime_character : James;
+=> nrel_anime_character : Meowth;
+=> nrel_anime_character : Professor_Oak;
+=> nrel_anime_character : Delia_Ketchum;;
+
+
+Pokemon_Indigo_League_episode_2
+=> nrel_screenwriter: Satoshi_Tajiri;;
+
+Pokemon_Indigo_League_episode_2
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;;
+
+Pokemon_Indigo_League_episode_2
+=> nrel_town: viridian_city;;
