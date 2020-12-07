@@ -1,0 +1,93 @@
+concept_pokemon -> concept_pokemon_growlite;;
+
+concept_pokemon_growlite
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гроулит]
+	(* <- lang_ru;;	*);
+	[Growlite]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_growlite <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гроулит)](*<-lang_ru;;*);
+		[Description (Growlite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_growlite_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_growlite_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_growlite <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Гроулит)](*<-lang_ru;;*);
+		[Appearance (Growlite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_growlite_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_growlite_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_growlite <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Гроулит)](*<-lang_ru;;*);
+		[Behavior (Growlite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_growlite_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_growlite_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_growlite <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Гроулит)](*<-lang_ru;;*);
+		[Natural ability (Growlite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_growlite_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_growlite_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+
+concept_pokemon_growlite <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гроулит)](*<-lang_ru;;*);
+		[Pic. (Growlite)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_growlite.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_growlite 
+=> nrel_pokemon_type: concept_fire_type;;
+
+concept_pokemon_growlite 
+=> nrel_color_in_pokedex: concept_color_red;;
+
+value -> 58;;
+concept_pokemon_growlite => nrel_pokedex_number: 58;;
+
+value -> 0.7;;
+concept_pokemon_growlite => nrel_height: 0.7;;
+
+value -> 19;;
+concept_pokemon_growlite => nrel_weight: 19;;
+
+concept_pokemon_growlite
+=> nrel_pokemon_evolution: concept_pokemon_arcanine;;

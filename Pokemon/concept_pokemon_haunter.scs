@@ -1,0 +1,107 @@
+concept_pokemon -> concept_pokemon_haunter;;
+
+concept_pokemon_haunter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хонтер]
+	(* <- lang_ru;;	*);
+	[Haunter]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хонтер)](*<-lang_ru;;*);
+		[Description (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_haunter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_haunter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Хонтер)](*<-lang_ru;;*);
+		[Appearance (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_haunter_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_haunter_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Хонтер)](*<-lang_ru;;*);
+		[Behavior (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_haunter_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_haunter_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Хонтер)](*<-lang_ru;;*);
+		[Natural ability (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_haunter_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_haunter_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Хонтер)](*<-lang_ru;;*);
+		[Habitat (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_haunter_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_haunter_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*  */
+
+concept_pokemon_haunter <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хонтер)](*<-lang_ru;;*);
+		[Pic. (Haunter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_haunter.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_haunter
+=> nrel_pokemon_evolution: concept_pokemon_gengar;;
+
+concept_pokemon_haunter 
+=> nrel_pokemon_type: concept_ghost_type;
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_haunter 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 93;;
+concept_pokemon_haunter => nrel_pokedex_number: 93;;
+
+value -> 1.6;;
+concept_pokemon_haunter => nrel_height: 1.6;;
+
+value -> 0.1;;
+concept_pokemon_haunter => nrel_weight: 0.1;;

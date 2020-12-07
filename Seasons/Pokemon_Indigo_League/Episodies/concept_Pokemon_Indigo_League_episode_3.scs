@@ -1,0 +1,98 @@
+concept_episode -> Pokemon_Indigo_League_episode_3;;
+
+Pokemon_Indigo_League_episode_3
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эп.3: Эш ловит покемона!]
+	(* <- lang_ru;;	*);
+	[Ep.3: Ash is catching a Pokemon!]
+	(* <- lang_en;;	*);;
+
+Pokemon_Indigo_League_episode_3 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эп.3: Эш ловит покемона!)](*<-lang_ru;;*);
+		[Description (Ep.3: Ash is catching a Pokemon!)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_3_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_3_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_3 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Интересные факты (Эп.3: Эш ловит покемона!)](*<-lang_ru;;*);
+		[Interesting facts (Ep.3: Ash is catching a Pokemon!)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_3_important_events_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_3_important_events_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_3 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эп.3: Эш ловит покемона!)](*<-lang_ru;;*);
+		[Pic. (Ep.3: Ash is catching a Pokemon!)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_3
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_3 => nrel_production_year : 1997;;
+
+Pokemon_Indigo_League_episode_3 
+=> nrel_anime_character : Ash_Ketchum;   
+=> nrel_anime_character : Misty;  
+=> nrel_anime_character : Jassy;
+=> nrel_anime_character : James;
+=> nrel_anime_character : concept_pokemon_meowth;;
+
+Pokemon_Indigo_League_episode_3
+=> nrel_pokemon_character : concept_pokemon_caterpie;
+=> nrel_pokemon_character : concept_pokemon_pikachu;
+=> nrel_pokemon_character : concept_pokemon_butterfree;
+=> nrel_pokemon_character : concept_pokemon_pidgeotto;
+=> nrel_pokemon_character : concept_pokemon_coffing;
+=> nrel_pokemon_character : concept_pokemon_ekans;
+=> nrel_pokemon_character : concept_pokemon_metapod;;
+
+Pokemon_Indigo_League_episode_3 => nrel_production_country : Japan;;
+
+Pokemon_Indigo_League_episode_3
+=> nrel_town: viridian_forest;;
+
+Pokemon_Indigo_League_episode_3
+=> nrel_screenwriter: Atsuhiro_Tomioka;;
+
+Pokemon_Indigo_League_episode_3
+=> nrel_season: Pokemon_Indigo_League;;
+
+
+

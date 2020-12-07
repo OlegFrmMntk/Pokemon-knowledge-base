@@ -1,0 +1,38 @@
+concept_place -> pokemon_center;;
+
+pokemon_center
+<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Центр Покемонов]
+	(*<-lang_ru;;*);
+	[Pokemon Center]
+	(*<-lang_en;;*);;
+
+pokemon_center <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Центр Покемонов)](*<-lang_ru;;*);
+		[Description (Pokemon Center)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_place
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/pokemon_center_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/pokemon_center_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;    
+
+pokemon_center <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Центр Покемонов)](*<-lang_ru;;*);
+		[Pic. (Pokemon Center)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/pokemon_center.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

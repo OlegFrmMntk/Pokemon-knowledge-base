@@ -1,0 +1,69 @@
+concept_pokemon_forest -> Viridian_Forest;;
+
+Viridian_Forest
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лес Виридиана]
+	(* <- lang_ru;;	*);
+	[Viridian Forest]
+	(* <- lang_en;;	*);;
+
+Viridian_Forest <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лес Виридиана)](*<-lang_ru;;*);
+		[Description (Viridian Forest)](*<-lang_en;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Viridian_Forest_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Viridian_Forest_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Viridian_Forest <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[География (Лес Виридиана)](*<-lang_ru;;*);
+		[Geography (Viridian Forest)](*<-lang_en;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Viridian_Forest_geography_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Viridian_Forest_geography_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Viridian_Forest <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[В аниме (Лес Виридиана)](*<-lang_ru;;*);
+		[In anime (Viridian Forest)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Viridian_Forest_in_anime_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Viridian_Forest_in_anime_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Viridian_Forest <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лес Виридиана)](*<-lang_ru;;*);
+		[Pic. (Viridian Forest)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Viridian_Forest.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Viridian_Forest
+=> nrel_region: Kanto;;
+

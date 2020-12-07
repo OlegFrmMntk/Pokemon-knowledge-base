@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_fearow;;
+
+concept_pokemon_fearow
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Фироу]
+	(* <- lang_ru;;	*);
+	[Fearow]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Фироу)](*<-lang_ru;;*);
+		[Description (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_fearow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_fearow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Фироу)](*<-lang_ru;;*);
+		[Appearance (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_fearow_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_fearow_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Фироу)](*<-lang_ru;;*);
+		[Behavior (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_fearow_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_fearow_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Фироу)](*<-lang_ru;;*);
+		[Natural ability (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_fearow_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_fearow_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Фироу)](*<-lang_ru;;*);
+		[Habitat (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_fearow_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_fearow_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+/*  */
+
+concept_pokemon_fearow <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фироу)](*<-lang_ru;;*);
+		[Pic. (Fearow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_fearow.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_fearow 
+=> nrel_pokemon_type: concept_normal_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_fearow 
+=> nrel_color_in_pokedex: concept_color_brown;;
+
+value -> 22;;
+concept_pokemon_fearow => nrel_pokedex_number: 22;;
+
+value -> 1.2;;
+concept_pokemon_fearow => nrel_height: 1.2;;
+
+value -> 38;;
+concept_pokemon_fearow => nrel_weight: 38;;

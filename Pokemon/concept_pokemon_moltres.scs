@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_moltres;;
+
+concept_pokemon_moltres
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Молтрес]
+	(* <- lang_ru;;	*);
+	[Moltres]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Молтрес)](*<-lang_ru;;*);
+		[Description (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_moltres_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_moltres_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Молтрес)](*<-lang_ru;;*);
+		[Appearance (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_moltres_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_moltres_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Молтрес)](*<-lang_ru;;*);
+		[Behavior (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_moltres_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_moltres_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Молтрес)](*<-lang_ru;;*);
+		[Natural ability (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_moltres_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_moltres_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Молтрес)](*<-lang_ru;;*);
+		[Habitat (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_moltres_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_moltres_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_moltres <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Молтрес)](*<-lang_ru;;*);
+		[Pic. (Moltres)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_moltres.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_moltres 
+=> nrel_pokemon_type: concept_fire_type;
+=> nrel_pokemon_type: concept_flying_type;;
+
+concept_pokemon_moltres 
+=> nrel_color_in_pokedex: concept_color_yellow;;
+
+value -> 146;;
+concept_pokemon_moltres => nrel_pokedex_number: 146;;
+
+value -> 2;;
+concept_pokemon_moltres => nrel_height: 2;;
+
+value -> 60;;
+concept_pokemon_moltres => nrel_weight: 60;;

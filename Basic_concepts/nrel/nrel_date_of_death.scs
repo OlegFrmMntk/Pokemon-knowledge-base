@@ -1,0 +1,27 @@
+nrel_date_of_death <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [date of death*](*<- lang_en;;*);
+    [дата смерти*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (дата смерти*)](*<- lang_ru;;*);
+        [Def. (date of death*)](*<- lang_en;;*);;
+   
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_date_of_death_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_date_of_death_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_human;
+=>nrel_second_domain:concept_calendar_date;
+
+<-binary_relation ;
+<- antireflexive_relation ; 
+<-antitransitive_relation ;;
+
+

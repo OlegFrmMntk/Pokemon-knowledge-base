@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+<title>Нидокинг в Pokemon GO: эволюция, атаки и описание</title>
+<meta name=description content="Покемон Нидокинг (Nidoking) эволюционирует из Нидорино и наносит сильные насекомые, ядовитые и земляные удары.">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<base href="https://pokemonov.net/"></base>
+<link rel="canonical" href="https://pokemonov.net/nidoking"/>
+<link rel=stylesheet href="/pokemonov/css/style.css" type="text/css" media=all>
+<link rel=stylesheet href="/pokemonov/css/genericons-neue.min.css" type="text/css" media=all>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:500&amp;subset=cyrillic" rel="stylesheet">
+<style>
+#maincontent span.bars{display:flex;max-width:100%}
+span.bars>i{width:100%;margin:2px;overflow:hidden;white-space:nowrap;display:block;transform:skewX(-20deg);height:8px}
+.bars.vodnye>i{background:#577BB3;}
+.bars.ognennye>i{background:#F44336;}
+.bars.travyanye>i{background:#4CAF50;}
+.bars.kamennye>i{background:#757575;}
+.bars.elektricheskie>i{background:#9C27B0;}
+.bars.letayushhie>i{background:#41c1d2;}
+.bars.drakony>i{background:#FFC107;}
+.bars.psihicheskie>i{background:#E91E63;}
+.bars.ledyanye>i{background:#03A9F4;}
+.bars.temnye>i{background:#191919;}
+.bars.normalnye>i{background:#607D8B;}
+.bars.prizrachnye>i{background:#78909C;}
+.bars.stalnye>i{background:#5d5d5d;}
+.bars.yadovitye>i{background:#673AB7;}
+.bars.zemlyanye>i{background:#795548;}
+.bars.nasekomye>i{background:#009688;}
+.bars.volshebnye>i{background:#E91E63;}
+.bars.prizraki>i{background:#9e9e9e;}
+.bars.boevye>i{background:crimson;}
+.candyevol>img{margin-right:4px;vertical-align:middle}
+</style>
+</head>
+<body>
+<div id="content" class="c">
+<div id="head">
+<div class="logo"><a href="/" title="Сайт о Pokemon GO">Pokemonov.net</a>
+<form role="search" id="search-form" class="search-form" action="search" method="get" autocomplete="off">
+<label><input type="search" id="searchDynamic" class="search-field" data-url="/searchpok.json" placeholder="Что искать?" value="" name="s" title="Искать:"></label>
+<input type="submit" class="search-submit" value="Найти!">
+</form>
+</div>
+<div id="topmenu" class="menu">
+<div class="topmenuhider genicon"><div class="mleft"></div><div class="mright"></div></div>
+<ul>
+<li><a href="/guides/" title="Гайды Pokemon GO">Гайды</a></li>
+<li><a href="/pokedex/" title="Покедекс Pokemon GO">Покедекс</a></li>
+<li><a href="/friends/" title="Найти друзей в Pokemon GO">Друзья</a></li>
+<li><a href="/pokemaker" title="Покемейкер">Покемейкер</a></li>
+<li><a href="/top" title="Топ Pokemon GO">Топ</a></li>
+<li><a href="https://trex-runner.com" title="T-Rex Runner" target="_blank" rel="nofollow">T-Rex Runner</a></li>
+</ul>
+</div>
+</div>
+<div id="maincontent">
+<div id="breadcrumbs"><span class="pokecrumb"><span class="firstcrumb"><a class="B_homeCrumb" href="/" title="Покемонов Нет">Покемонов.Нет</a></span>  &rarr;  <span class="lastcrumb"><a class="B_crumb" href="/pokedex/" title="Pokedex">Покедекс</a></span></span></div>
+<div class="pokemoninfo">
+<h1>Nidoking</h1>
+<p>Покемон Нидокинг находится под номером 34 в Покедекс и относится к ядовитому земляному типу. Он эволюционирует из Нидорино.</p>
+<p>Толстый хвост Нидокинга содержит гигантскую разрушительную силу. Одним ударом он сносит металлическую башню электропередачи. В ярости этого покемона не остановить.</p>
+<img class="picBig" itemprop="image" src="/assets/images/pokemony/34-nidoking.png" alt="Нидокинг" />
+<ul class="info">
+<li><span>№:</span> <span>#34</span></li>
+<li><span>Тип:</span> <span class="type"><a class="yadovitye" href="/yadovitye-pokemony" title="Ядовитый тип покемонов"><i></i>Ядовитые</a><a class="zemlyanye" href="/zemlyanye-pokemony" title="Земляной тип покемонов"><i></i>Земляные</a></span></li>
+<li><span>Вид:</span> <span>Drill Pokemon</span></li>
+<li><span>Рост:</span> <span>140 см</span></li>
+<li><span>Вес:</span> <span>62 кг</span></li>
+</ul>
+<h2>Базовые характеристики</h2>
+<ul class="info stats">
+<li><span>Здоровье:</span> <span>191</span></li>
+<li><span>Атака:</span> <span>204</span></li>
+<li><span>Защита:</span> <span>156</span></li>
+<li><span>Максимум CP:</span> <span>2567</span></li>
+</ul>
+<h2 class="clear">Уязвимости</h2><span class="type"><a class="zemlyanye" href="/zemlyanye-ataki" title="Земляные атаки" target="_blank"><i></i>Земля</a><a class="psihicheskie" href="/psihicheskie-ataki" title="Психические атаки" target="_blank"><i></i>Психоэнергия</a><a class="ledyanye" href="/ledyanye-ataki" title="Ледяные атаки" target="_blank"><i></i>Лед</a><a class="vodnye" href="/vodnye-ataki" title="Водяные атаки" target="_blank"><i></i>Вода</a></span><br /><br /><h2 class="clear">Повышенное сопротивление</h2><span class="type"><a class="nasekomye" href="/nasekomye-ataki" title="Атаки насекомого" target="_blank"><i></i>Насекомые</a><a class="boevye" href="/boevye-ataki" title="Боевые атаки" target="_blank"><i></i>Боевые атаки</a><a class="volshebnye" href="/volshebnye-ataki" title="Волшебные атаки" target="_blank"><i></i>Волшебство</a><a class="yadovitye" href="/yadovitye-ataki" title="Ядовитые атаки" target="_blank"><i></i>Яд</a><a class="elektricheskie" href="/elektricheskie-ataki" title="Электрические атаки" target="_blank"><i></i>Электричество</a><a class="kamennye" href="/kamennye-ataki" title="Каменные атаки" target="_blank"><i></i>Камень</a></span><br /><br />
+<h2 class="clear">Кем бить?</h2>
+<div><a href="/nidoking#" id="showho" onclick="return false">+ Развернуть список</a></div>
+<div id="whobeats"></div>
+<br />
+<h2>Атаки</h2>
+<ul class="info moves">
+<li><b>Быстрые атаки</b></li>
+<li><span><br /><br /></span><span>Poison Jab</span><span>Iron Tail</span></li>
+<li class="type"><span>Тип</span><span><a class="yadovitye" href="/yadovitye-ataki" title="Ядовитая атака"><i></i>Ядовитая</a></span><span><a class="stalnye" href="/stalnye-ataki" title="Стальная атака"><i></i>Стальная</a></span></li>
+<li><span>Сила</span><span>10</span><span>15</span></li>
+<li><span>Кулдаун</span><span>0.8 с</span><span>1.1 с</span></li>
+<li><span>Энергия</span><span>7</span><span>7</span></li>
+</ul>
+<ul class="info moves">
+<li><b>Мощные атаки</b></li>
+<li><span><br /><br /></span><span>Megahorn</span><span>Earthquake</span><span>Sludge Wave</span><span>Earth Power</span></li>
+<li class="type"><span>Тип</span><span><a class="nasekomye" href="/nasekomye-ataki" title="Насекомая атака"><i></i>Насекомая</a></span><span><a class="zemlyanye" href="/zemlyanye-ataki" title="Земляная атака"><i></i>Земляная</a></span><span><a class="yadovitye" href="/yadovitye-ataki" title="Ядовитая атака"><i></i>Ядовитая</a></span><span><a class="zemlyanye" href="/zemlyanye-ataki" title="Земляная атака"><i></i>Земляная</a></span></li>
+<li><span>Сила</span><span>110</span><span>140</span><span>110</span><span>100</span></li>
+<li><span>Кулдаун</span><span>2.2 с</span><span>3.6 с</span><span>3.2 с</span><span>3.6 с</span></li>
+<li><span>Энергия</span><span><span class="bars nasekomye"><i></i></span></span><span><span class="bars zemlyanye"><i></i></span></span><span><span class="bars yadovitye"><i></i></span></span><span><span class="bars zemlyanye"><i></i><i></i></span></span></li>
+</ul>
+<h2 class="clear">Эволюция Nidoking</h2>
+<ul class="info evol">
+<li><span>Форма</span><span>Конфеты</span><span>Эволюция</span></li>
+<li><span><img itemprop="image" src="/assets/images/pokemony/nidoking.png" alt="Nidoking" /></span><span class="candyevol">-</span>
+<span class="evolres">
+???
+</span>
+</li>
+<li><span><a href="/nidorino" title="Nidorino"><img itemprop="image" src="/assets/images/pokemony/nidorino.png" alt="Nidorino" /></a></span><span class="candyevol"><img src="/pokemonov/img/evoitems/nidoran-samec.png" rel="Конфеты">100</span><span class="evolres"><a href="/nidoking"><img itemprop="image" src="/assets/images/pokemony/nidoking.png" alt="Nidoking"></a></span></li>
+</ul>
+</div>
+<div class="pokenav">
+<a href="/nidorino" title="Нидорино" class="prevlink"><img itemprop="image" src="/assets/images/pokemony/nidorino.png" alt="Нидорино" /><span>Нидорино</span></a><a href="/clefairy" title="Клефейри" class="nextlink"><img itemprop="image" src="/assets/images/pokemony/clefairy.png" alt="Клефейри" /><span>Клефейри</span></a>
+</div>
+<!-- Yandex.RTB R-A-409176-2 -->
+<div id="yandex_rtb_R-A-409176-2"></div>
+<script type="text/javascript">
+(function(w, d, n, s, t) {
+w[n] = w[n] || [];
+w[n].push(function() {
+Ya.Context.AdvManager.render({
+blockId: "R-A-409176-2",
+renderTo: "yandex_rtb_R-A-409176-2",
+async: true
+});
+});
+t = d.getElementsByTagName("script")[0];
+s = d.createElement("script");
+s.type = "text/javascript";
+s.src = "//an.yandex.ru/system/context.js";
+s.async = true;
+t.parentNode.insertBefore(s, t);
+})(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+<div id="vk_comments"></div>
+</div>
+<div id="sidebar">
+<div class="sidebarx"></div>
+<div class="sideblock">
+<select id="pokeselect"><option value="31">#1 Бульбазавр</option>
+<option value="33">#2 Ивизавр</option>
+<option value="34">#3 Венузавр</option><option value="772">#3 Мега Венузавр</option>
+
+<option value="35">#4 Чармандер</option>
+<option value="36">#5 Чармилион</option>
+<option value="46">#6 Чаризард</option><option value="774">#6 Мега Чаризард X</option>
+<option value="773">#6 Мега Чаризард Y</option>
+
+<option value="37">#7 Сквиртл</option>
+<option value="40">#8 Вартортл</option>
+<option value="41">#9 Бластойз</option><option value="771">#9 Мега Бластойз</option>
+
+<option value="38">#10 Катерпи</option>
+<option value="39">#11 Метапод</option>
+<option value="42">#12 Баттерфри</option>
+<option value="43">#13 Видл</option>
+<option value="44">#14 Какуна</option>
+<option value="45">#15 Бидрилл</option><option value="770">#15 Мега Бидрилл</option>
+
+<option value="66">#16 Пиджи</option>
+<option value="67">#17 Пиджеотто</option>
+<option value="68">#18 Пиджеот</option><option value="775">#18 Мега Пиджеот</option>
+
+<option value="69">#19 Раттата</option><option value="765">#19 Раттата Алола</option>
+
+<option value="70">#20 Ратикейт</option><option value="766">#20 Ратикейт Алола</option>
+
+<option value="71">#21 Спироу</option>
+<option value="72">#22 Фироу</option>
+<option value="73">#23 Эканс</option>
+<option value="74">#24 Эрбок</option>
+<option value="75">#25 Пикачу</option>
+<option value="76">#26 Райчу</option><option value="562">#26 Райчу Алола</option>
+
+<option value="77">#27 Сэндшрю</option><option value="767">#27 Сэндшрю Алола</option>
+
+<option value="78">#28 Сэндслэш</option><option value="768">#28 Сэндслэш Алола</option>
+
+<option value="79">#29 Нидоран (самка)</option>
+<option value="80">#30 Нидорина</option>
+<option value="81">#31 Нидоквин</option>
+<option value="82">#32 Нидоран (самец)</option>
+<option value="83">#33 Нидорино</option>
+<option value="84">#34 Нидокинг</option>
+<option value="85">#35 Клефейри</option>
+<option value="86">#36 Клефейбл</option>
+<option value="87">#37 Вульпикс</option><option value="740">#37 Вульпикс Алола</option>
+
+<option value="88">#38 Найнтейлс</option><option value="741">#38 Найнтейлс Алола</option>
+
+<option value="89">#39 Джиглипуф</option>
+<option value="90">#40 Виглитафф</option>
+<option value="91">#41 Зубат</option>
+<option value="92">#42 Голбат</option>
+<option value="93">#43 Одиш</option>
+<option value="94">#44 Глум</option>
+<option value="95">#45 Вайлплум</option>
+<option value="97">#46 Парас</option>
+<option value="98">#47 Парасект</option>
+<option value="99">#48 Венонат</option>
+<option value="100">#49 Веномот</option>
+<option value="101">#50 Диглетт</option><option value="763">#50 Диглетт Алола</option>
+
+<option value="102">#51 Дагтрио</option><option value="764">#51 Дагтрио Алола</option>
+
+<option value="103">#52 Мяут</option><option value="744">#52 Мяут Алола</option>
+<option value="746">#52 Мяут Галар</option>
+
+<option value="104">#53 Персиан</option><option value="745">#53 Персиан Алола</option>
+
+<option value="105">#54 Псайдак</option>
+<option value="106">#55 Голдак</option>
+<option value="107">#56 Манки</option>
+<option value="108">#57 Праймейп</option>
+<option value="109">#58 Гроулит</option>
+<option value="110">#59 Арканайн</option>
+<option value="111">#60 Поливаг</option>
+<option value="112">#61 Поливирл</option>
+<option value="113">#62 Поливрат</option>
+<option value="114">#63 Абра</option>
+<option value="115">#64 Кадабра</option>
+<option value="116">#65 Алаказам</option>
+<option value="117">#66 Мачоп</option>
+<option value="118">#67 Мачок</option>
+<option value="119">#68 Мачамп</option>
+<option value="120">#69 Беллспраут</option>
+<option value="121">#70 Випинбелл</option>
+<option value="122">#71 Виктрибел</option>
+<option value="123">#72 Тентакул</option>
+<option value="124">#73 Тентакруэль</option>
+<option value="125">#74 Геодуд</option><option value="760">#74 Геодуд Алола</option>
+
+<option value="126">#75 Гравелер</option><option value="761">#75 Гравелер Алола</option>
+
+<option value="127">#76 Голем</option><option value="762">#76 Голем Алола</option>
+
+<option value="129">#77 Понита</option><option value="778">#77 Понита Галар</option>
+
+<option value="130">#78 Рапидаш</option><option value="779">#78 Рапидаш Галар</option>
+
+<option value="131">#79 Слоупок</option>
+<option value="132">#80 Слоубро</option>
+<option value="133">#81 Магнемайт</option>
+<option value="134">#82 Магнетон</option>
+<option value="135">#83 Фарфетч'д</option><option value="756">#83 Фарфетч'д Галар</option>
+
+<option value="136">#84 Додуо</option>
+<option value="137">#85 Додрио</option>
+<option value="138">#86 Сил</option>
+<option value="139">#87 Дьюгонг</option>
+<option value="140">#88 Граймер</option><option value="743">#88 Граймер Алола</option>
+
+<option value="141">#89 Мак</option><option value="742">#89 Мак Алола</option>
+
+<option value="142">#90 Шелдер</option>
+<option value="143">#91 Клойстер</option>
+<option value="144">#92 Гастли</option>
+<option value="145">#93 Хантер</option>
+<option value="146">#94 Генгар</option><option value="777">#94 Мега Генгар</option>
+
+<option value="147">#95 Оникс</option>
+<option value="148">#96 Дроузи</option>
+<option value="149">#97 Гипно</option>
+<option value="150">#98 Краби</option>
+<option value="151">#99 Кинглер</option>
+<option value="152">#100 Волторб</option>
+<option value="153">#101 Электрод</option>
+<option value="154">#102 Экзеггут</option>
+<option value="155">#103 Экзекутор</option><option value="758">#103 Экзекутор Алола</option>
+
+<option value="156">#104 Кубон</option>
+<option value="157">#105 Маровак</option><option value="738">#105 Маровак Алола</option>
+
+<option value="158">#106 Хитмонли</option>
+<option value="159">#107 Хитмончан</option>
+<option value="160">#108 Ликитунг</option>
+<option value="162">#109 Коффинг</option>
+<option value="161">#110 Визинг</option><option value="759">#110 Визинг Галар</option>
+
+<option value="163">#111 Райхорн</option>
+<option value="164">#112 Райдон</option>
+<option value="165">#113 Ченси</option>
+<option value="166">#114 Тангела</option>
+<option value="167">#115 Кангасхан</option>
+<option value="169">#116 Хорси</option>
+<option value="170">#117 Сидра</option>
+<option value="171">#118 Голдин</option>
+<option value="172">#119 Сикинг</option>
+<option value="173">#120 Старью</option>
+<option value="174">#121 Старми</option>
+<option value="175">#122 Мистер Майм</option>
+<option value="176">#123 Скайтер</option>
+<option value="177">#124 Джинкс</option>
+<option value="178">#125 Электробаз</option>
+<option value="179">#126 Магмар</option>
+<option value="180">#127 Пинсир</option>
+<option value="181">#128 Таурус</option>
+<option value="182">#129 Мэджикарп</option>
+<option value="183">#130 Гаярдос</option>
+<option value="184">#131 Лапрас</option>
+<option value="185">#132 Дитто</option>
+<option value="186">#133 Иви</option>
+<option value="187">#134 Вапореон</option>
+<option value="188">#135 Джолтеон</option>
+<option value="189">#136 Флареон</option>
+<option value="191">#137 Поригон</option>
+<option value="192">#138 Оманайт</option>
+<option value="193">#139 Омастар</option>
+<option value="194">#140 Кабуто</option>
+<option value="195">#141 Кабутопс</option>
+<option value="196">#142 Аэродактиль</option>
+<option value="197">#143 Снорлакс</option>
+<option value="198">#144 Артикуно</option>
+<option value="199">#145 Запдос</option>
+<option value="200">#146 Молтрес</option>
+<option value="201">#147 Дратини</option>
+<option value="202">#148 Драгонэйр</option>
+<option value="203">#149 Драгонайт</option>
+<option value="204">#150 Мьюту</option><option value="752">#150 Мьюту в броне</option>
+
+<option value="205">#151 Мью</option>
+<option value="207">#152 Чикорита</option>
+<option value="208">#153 Бейлиф</option>
+<option value="209">#154 Меганиум</option>
+<option value="210">#155 Синдаквил</option>
+<option value="211">#156 Квилава</option>
+<option value="212">#157 Тайфложн</option>
+<option value="213">#158 Тотодайл</option>
+<option value="214">#159 Кроконав</option>
+<option value="215">#160 Фералигатор</option>
+<option value="216">#161 Сентрет</option>
+<option value="217">#162 Фуррет</option>
+<option value="218">#163 Хут-хут</option>
+<option value="219">#164 Ноктаул</option>
+<option value="220">#165 Ледиба</option>
+<option value="221">#166 Ледиан</option>
+<option value="222">#167 Спинарак</option>
+<option value="223">#168 Ариадос</option>
+<option value="224">#169 Кробат</option>
+<option value="225">#170 Чинчоу</option>
+<option value="226">#171 Лантурн</option>
+<option value="227">#172 Пичу</option>
+<option value="228">#173 Клеффа</option>
+<option value="229">#174 Иглибафф</option>
+<option value="230">#175 Тогепи</option>
+<option value="231">#176 Тогетик</option>
+<option value="232">#177 Нату</option>
+<option value="233">#178 Ксату</option>
+<option value="234">#179 Марип</option>
+<option value="235">#180 Флаффи</option>
+<option value="236">#181 Амфарос</option>
+<option value="237">#182 Белоссом</option>
+<option value="238">#183 Мэрилл</option>
+<option value="239">#184 Азумэрилл</option>
+<option value="240">#185 Судовудо</option>
+<option value="241">#186 Политоед</option>
+<option value="242">#187 Хоппип</option>
+<option value="243">#188 Скиплум</option>
+<option value="244">#189 Джамплафф</option>
+<option value="245">#190 Айпом</option>
+<option value="246">#191 Санкерн</option>
+<option value="247">#192 Санфлора</option>
+<option value="248">#193 Янма</option>
+<option value="249">#194 Вупер</option>
+<option value="250">#195 Квагсир</option>
+<option value="251">#196 Эспеон</option>
+<option value="252">#197 Умбреон</option>
+<option value="253">#198 Маркроу</option>
+<option value="254">#199 Слоукинг</option>
+<option value="255">#200 Мисдривус</option>
+<option value="256">#201 Анноун</option>
+<option value="257">#202 Воббуффет</option>
+<option value="258">#203 Жирафарик</option>
+<option value="259">#204 Пинеко</option>
+<option value="260">#205 Форетресс</option>
+<option value="261">#206 Данспарс</option>
+<option value="262">#207 Глигар</option>
+<option value="263">#208 Стиликс</option>
+<option value="264">#209 Снаббул</option>
+<option value="265">#210 Грэнбул</option>
+<option value="266">#211 Квилфиш</option>
+<option value="267">#212 Скизор</option>
+<option value="268">#213 Шакл</option>
+<option value="269">#214 Геракросс</option>
+<option value="270">#215 Снизил</option>
+<option value="271">#216 Теддиурса</option>
+<option value="272">#217 Урсаринг</option>
+<option value="273">#218 Слагма</option>
+<option value="274">#219 Магкарго</option>
+<option value="275">#220 Свайнаб</option>
+<option value="276">#221 Пилосвайн</option>
+<option value="277">#222 Корсола</option>
+<option value="278">#223 Реморейд</option>
+<option value="279">#224 Октилерия</option>
+<option value="280">#225 Делибёрд</option>
+<option value="281">#226 Мантин</option>
+<option value="282">#227 Скармори</option>
+<option value="283">#228 Хондар</option>
+<option value="284">#229 Хондум</option><option value="776">#229 Мега Хондум</option>
+
+<option value="285">#230 Кингдра</option>
+<option value="286">#231 Фанпи</option>
+<option value="287">#232 Донфан</option>
+<option value="288">#233 Поригон2</option>
+<option value="289">#234 Стантлер</option>
+<option value="290">#235 Смиргл</option>
+<option value="291">#236 Тирог</option>
+<option value="292">#237 Хитмонтоп</option>
+<option value="293">#238 Смучум</option>
+<option value="295">#239 Элекид</option>
+<option value="296">#240 Магби</option>
+<option value="297">#241 Милтанк</option>
+<option value="298">#242 Блисси</option>
+<option value="299">#243 Райкоу</option>
+<option value="300">#244 Энтей</option>
+<option value="301">#245 Сайкун</option>
+<option value="302">#246 Ларвитар</option>
+<option value="303">#247 Пупитар</option>
+<option value="304">#248 Тиранитар</option>
+<option value="305">#249 Лугия</option>
+<option value="306">#250 Хо-ох</option>
+<option value="307">#251 Селеби</option>
+<option value="308">#252 Трико</option>
+<option value="309">#253 Гровайл</option>
+<option value="310">#254 Скептайл</option>
+<option value="311">#255 Торчик</option>
+<option value="312">#256 Комбаскен</option>
+<option value="313">#257 Блазикен</option>
+<option value="314">#258 Мадкип</option>
+<option value="315">#259 Марштомп</option>
+<option value="316">#260 Свамперт</option>
+<option value="317">#261 Пучиена</option>
+<option value="318">#262 Майтиена</option>
+<option value="319">#263 Зигзагун</option><option value="753">#263 Зигзагун Галар</option>
+
+<option value="320">#264 Лайнун</option><option value="754">#264 Лайнун Галар</option>
+
+<option value="321">#265 Вурмпл</option>
+<option value="322">#266 Силкун</option>
+<option value="323">#267 Бьютифлай</option>
+<option value="324">#268 Каскун</option>
+<option value="325">#269 Дастокс</option>
+<option value="326">#270 Лотад</option>
+<option value="327">#271 Ламбре</option>
+<option value="328">#272 Лудиколо</option>
+<option value="329">#273 Сидот</option>
+<option value="330">#274 Назлиф</option>
+<option value="331">#275 Шифтри</option>
+<option value="332">#276 Тейлоу</option>
+<option value="333">#277 Свэллоу</option>
+<option value="334">#278 Вингал</option>
+<option value="335">#279 Пелиппер</option>
+<option value="336">#280 Ральтс</option>
+<option value="337">#281 Кирлия</option>
+<option value="340">#282 Гардевуар</option>
+<option value="338">#283 Сурскит</option>
+<option value="341">#284 Москирейн</option>
+<option value="342">#285 Шрумиш</option>
+<option value="343">#286 Брелум</option>
+<option value="344">#287 Слакот</option>
+<option value="345">#288 Вигорос</option>
+<option value="346">#289 Слакинг</option>
+<option value="347">#290 Нинкада</option>
+<option value="348">#291 Нинджаск</option>
+<option value="349">#292 Шединья</option>
+<option value="350">#293 Висмур</option>
+<option value="351">#294 Лаудред</option>
+<option value="352">#295 Эксплауд</option>
+<option value="353">#296 Макухита</option>
+<option value="354">#297 Харияма</option>
+<option value="355">#298 Азурилл</option>
+<option value="356">#299 Носпас</option>
+<option value="357">#300 Скитти</option>
+<option value="358">#301 Делкэтти</option>
+<option value="359">#302 Саблай</option>
+<option value="360">#303 Мавайл</option>
+<option value="361">#304 Арон</option>
+<option value="362">#305 Лайрон</option>
+<option value="363">#306 Агрон</option>
+<option value="364">#307 Медитайт</option>
+<option value="365">#308 Медичам</option>
+<option value="366">#309 Электрайк</option>
+<option value="367">#310 Манектрик</option>
+<option value="368">#311 Плюсл</option>
+<option value="369">#312 Минун</option>
+<option value="370">#313 Волбит</option>
+<option value="371">#314 Иллюмайз</option>
+<option value="372">#315 Розалия</option>
+<option value="373">#316 Гульпин</option>
+<option value="374">#317 Свалот</option>
+<option value="375">#318 Карвана</option>
+<option value="376">#319 Шарпедо</option>
+<option value="377">#320 Вэйлмир</option>
+<option value="378">#321 Вэйлорд</option>
+<option value="379">#322 Нумель</option>
+<option value="380">#323 Камерупт</option>
+<option value="381">#324 Торкол</option>
+<option value="382">#325 Споинк</option>
+<option value="383">#326 Грумпиг</option>
+<option value="384">#327 Спинда</option>
+<option value="385">#328 Трапинч</option>
+<option value="386">#329 Вибрава</option>
+<option value="387">#330 Флайгон</option>
+<option value="388">#331 Какнея</option>
+<option value="389">#332 Кактурн</option>
+<option value="390">#333 Сваблю</option>
+<option value="391">#334 Алтария</option>
+<option value="392">#335 Зангус</option>
+<option value="393">#336 Севайпер</option>
+<option value="394">#337 Лунатон</option>
+<option value="395">#338 Солрок</option>
+<option value="396">#339 Барбоч</option>
+<option value="397">#340 Вискаш</option>
+<option value="398">#341 Корфиш</option>
+<option value="399">#342 Крадонт</option>
+<option value="400">#343 Балтой</option>
+<option value="401">#344 Клэйдол</option>
+<option value="402">#345 Лилип</option>
+<option value="403">#346 Крадили</option>
+<option value="404">#347 Анорит</option>
+<option value="405">#348 Армальдо</option>
+<option value="406">#349 Фибас</option>
+<option value="407">#350 Милотик</option>
+<option value="408">#351 Кастформ</option>
+<option value="409">#352 Кеклеон</option>
+<option value="410">#353 Шапет</option>
+<option value="411">#354 Банетта</option>
+<option value="412">#355 Даскал</option>
+<option value="413">#356 Дасклопс</option>
+<option value="414">#357 Тропиус</option>
+<option value="415">#358 Чимечо</option>
+<option value="416">#359 Абсол</option>
+<option value="417">#360 Винаут</option>
+<option value="418">#361 Снорант</option>
+<option value="419">#362 Глали</option>
+<option value="420">#363 Сфил</option>
+<option value="421">#364 Силео</option>
+<option value="422">#365 Валрейн</option>
+<option value="423">#366 Кламперл</option>
+<option value="424">#367 Хантейл</option>
+<option value="425">#368 Горбисс</option>
+<option value="426">#369 Реликант</option>
+<option value="427">#370 Лавдиск</option>
+<option value="428">#371 Багон</option>
+<option value="429">#372 Шелгон</option>
+<option value="430">#373 Саламенс</option>
+<option value="431">#374 Белдам</option>
+<option value="432">#375 Метанг</option>
+<option value="433">#376 Метагросс</option>
+<option value="434">#377 Реджирок</option>
+<option value="435">#378 Реджиайс</option>
+<option value="436">#379 Реджистил</option>
+<option value="437">#380 Латиас</option>
+<option value="438">#381 Латиос</option>
+<option value="439">#382 Кайогра</option>
+<option value="440">#383 Гроудон</option>
+<option value="441">#384 Рейкваза</option>
+<option value="442">#385 Джирачи</option>
+<option value="443">#386 Деоксис</option><option value="444">#386 Деоксис Атака</option>
+<option value="445">#386 Деоксис Защита</option>
+<option value="446">#386 Деоксис Скорость</option>
+
+<option value="452">#387 Тортвиг</option>
+<option value="453">#388 Гротл</option>
+<option value="454">#389 Тортерра</option>
+<option value="455">#390 Чимчар</option>
+<option value="456">#391 Монферно</option>
+<option value="457">#392 Инфернейп</option>
+<option value="458">#393 Пиплап</option>
+<option value="459">#394 Принплап</option>
+<option value="460">#395 Эмполеон</option>
+<option value="461">#396 Старли</option>
+<option value="462">#397 Старэвиа</option>
+<option value="463">#398 Стараптор</option>
+<option value="464">#399 Бидуф</option>
+<option value="465">#400 Бибарель</option>
+<option value="466">#401 Крикетот</option>
+<option value="467">#402 Крикетьюн</option>
+<option value="468">#403 Шинкс</option>
+<option value="469">#404 Люксио</option>
+<option value="470">#405 Люксрэй</option>
+<option value="471">#406 Бадью</option>
+<option value="447">#407 Роузрейд</option>
+<option value="472">#408 Кранидос</option>
+<option value="473">#409 Рампардос</option>
+<option value="475">#410 Шелдон</option>
+<option value="476">#411 Бастиодон</option>
+<option value="477">#412 Бурми</option>
+<option value="478">#413 Вормадам</option><option value="558">#413 Песочный Вормадам</option>
+<option value="559">#413 Мусорный Вормадам</option>
+
+<option value="479">#414 Мотим</option>
+<option value="480">#415 Комби</option>
+<option value="481">#416 Веспиквин</option>
+<option value="482">#417 Пачирису</option>
+<option value="483">#418 Буизель</option>
+<option value="484">#419 Флоатзель</option>
+<option value="485">#420 Черуби</option>
+<option value="486">#421 Черрим</option>
+<option value="487">#422 Шеллос</option>
+<option value="488">#423 Гастродон</option>
+<option value="489">#424 Эмбипом</option>
+<option value="490">#425 Дрифлун</option>
+<option value="491">#426 Дрифблим</option>
+<option value="492">#427 Банири</option>
+<option value="493">#428 Лопани</option>
+<option value="494">#429 Мисмагиус</option>
+<option value="495">#430 Хончкроу</option>
+<option value="496">#431 Глеймяу</option>
+<option value="497">#432 Пурагли</option>
+<option value="498">#433 Чинглинг</option>
+<option value="499">#434 Станки</option>
+<option value="500">#435 Скунтанк</option>
+<option value="501">#436 Бронзор</option>
+<option value="502">#437 Бронзонг</option>
+<option value="503">#438 Бонсли</option>
+<option value="504">#439 Мим Младший</option>
+<option value="505">#440 Хэппини</option>
+<option value="506">#441 Чатот</option>
+<option value="507">#442 Спиритомб</option>
+<option value="508">#443 Гибл</option>
+<option value="509">#444 Габайт</option>
+<option value="510">#445 Гарчомп</option>
+<option value="511">#446 Манчлакс</option>
+<option value="512">#447 Риолу</option>
+<option value="513">#448 Лукарио</option>
+<option value="514">#449 Гиппопотас</option>
+<option value="515">#450 Гипподон</option>
+<option value="516">#451 Скорупи</option>
+<option value="517">#452 Драпион</option>
+<option value="518">#453 Кроганк</option>
+<option value="519">#454 Токсикроук</option>
+<option value="520">#455 Карнивайн</option>
+<option value="521">#456 Финнеон</option>
+<option value="522">#457 Люминеон</option>
+<option value="523">#458 Мантик</option>
+<option value="524">#459 Сновер</option>
+<option value="525">#460 Абомасноу</option>
+<option value="526">#461 Вивайл</option>
+<option value="527">#462 Магнезон</option>
+<option value="528">#463 Ликилики</option>
+<option value="529">#464 Райпериор</option>
+<option value="530">#465 Тангроут</option>
+<option value="531">#466 Элективайр</option>
+<option value="532">#467 Магмортар</option>
+<option value="533">#468 Тогекисс</option>
+<option value="534">#469 Янмега</option>
+<option value="535">#470 Лифеон</option>
+<option value="536">#471 Гласеон</option>
+<option value="537">#472 Глайскор</option>
+<option value="538">#473 Мамосвайн</option>
+<option value="539">#474 Поригон Z</option>
+<option value="540">#475 Галлейд</option>
+<option value="448">#476 Пробопасс</option>
+<option value="451">#477 Даскнуар</option>
+<option value="449">#478 Фросласс</option>
+<option value="541">#479 Ротом</option>
+<option value="542">#480 Юкси</option>
+<option value="543">#481 Месприт</option>
+<option value="544">#482 Азельф</option>
+<option value="545">#483 Диалга</option>
+<option value="546">#484 Палкия</option>
+<option value="547">#485 Хитран</option>
+<option value="548">#486 Реджигигас</option>
+<option value="549">#487 Гиратина</option><option value="550">#487 Гиратина (оригинальная форма)</option>
+
+<option value="551">#488 Кресселия</option>
+<option value="552">#489 Фион</option>
+<option value="553">#490 Манафи</option>
+<option value="554">#491 Даркрай</option>
+<option value="555">#492 Шеймин</option><option value="556">#492 Шеймин (Небесная форма)</option>
+
+<option value="557">#493 Аркеус</option>
+<option value="569">#494 Виктини</option>
+<option value="570">#495 Снайви</option>
+<option value="571">#496 Сервайн</option>
+<option value="572">#497 Серпериор</option>
+<option value="573">#498 Тепиг</option>
+<option value="574">#499 Пигнит</option>
+<option value="575">#500 Эмбор</option>
+<option value="576">#501 Ошавот</option>
+<option value="577">#502 Девотт</option>
+<option value="578">#503 Самурот</option>
+<option value="579">#504 Патрат</option>
+<option value="580">#505 Вачхог</option>
+<option value="581">#506 Лилипап</option>
+<option value="582">#507 Хердиер</option>
+<option value="583">#508 Стаутленд</option>
+<option value="584">#509 Пуррлойн</option>
+<option value="585">#510 Лайпард</option>
+<option value="586">#511 Пансейдж</option>
+<option value="587">#512 Симисейдж</option>
+<option value="588">#513 Пансир</option>
+<option value="589">#514 Симисир</option>
+<option value="590">#515 Панпур</option>
+<option value="591">#516 Симипур</option>
+<option value="592">#517 Мунна</option>
+<option value="593">#518 Мушарна</option>
+<option value="594">#519 Пидов</option>
+<option value="595">#520 Транквилл</option>
+<option value="596">#521 Анфезант</option>
+<option value="597">#522 Блитзл</option>
+<option value="598">#523 Зебстрайка</option>
+<option value="599">#524 Роггенрола</option>
+<option value="600">#525 Болдор</option>
+<option value="601">#526 Гигалит</option>
+<option value="602">#527 Вубат</option>
+<option value="603">#528 Свубэт</option>
+<option value="604">#529 Дрилбур</option>
+<option value="605">#530 Экскадрил</option>
+<option value="606">#531 Аудино</option>
+<option value="607">#532 Тимбурр</option>
+<option value="608">#533 Гурдур</option>
+<option value="609">#534 Конкелдур</option>
+<option value="610">#535 Тимпол</option>
+<option value="611">#536 Палпитоад</option>
+<option value="612">#537 Сейсмитоад</option>
+<option value="613">#538 Тро</option>
+<option value="614">#539 Соук</option>
+<option value="615">#540 Севадл</option>
+<option value="616">#541 Свадлун</option>
+<option value="618">#542 Ливанни</option>
+<option value="617">#543 Венипид</option>
+<option value="619">#544 Вирлипид</option>
+<option value="620">#545 Сколипид</option>
+<option value="621">#546 Коттони</option>
+<option value="622">#547 Вимсикотт</option>
+<option value="623">#548 Петилил</option>
+<option value="624">#549 Лилигант</option>
+<option value="625">#550 Баскулин</option>
+<option value="626">#551 Сэндайл</option>
+<option value="627">#552 Крокорок</option>
+<option value="628">#553 Крокодайл</option>
+<option value="629">#554 Дарумака</option><option value="749">#554 Дарумака Галар</option>
+
+<option value="630">#555 Дарманитан</option><option value="751">#555 Дарманитан Дзен Галар</option>
+<option value="717">#555 Дарманитан Дзен</option>
+<option value="750">#555 Дарманитан Галар</option>
+
+<option value="631">#556 Марактус</option>
+<option value="632">#557 Двеббл</option>
+<option value="633">#558 Крастл</option>
+<option value="634">#559 Скрэгги</option>
+<option value="635">#560 Скрафти</option>
+<option value="636">#561 Сигилиф</option>
+<option value="637">#562 Ямаск</option><option value="780">#562 Ямаск Галар</option>
+
+<option value="638">#563 Кофагригус</option>
+<option value="639">#564 Тортуга</option>
+<option value="640">#565 Каракоста</option>
+<option value="641">#566 Архен</option>
+<option value="642">#567 Археопс</option>
+<option value="643">#568 Траббиш</option>
+<option value="644">#569 Гарбодор</option>
+<option value="645">#570 Зоруа</option>
+<option value="646">#571 Зороарк</option>
+<option value="647">#572 Минчино</option>
+<option value="648">#573 Чинчино</option>
+<option value="649">#574 Готита</option>
+<option value="650">#575 Готорита</option>
+<option value="651">#576 Готитель</option>
+<option value="652">#577 Солосис</option>
+<option value="653">#578 Дуосион</option>
+<option value="654">#579 Реюниклус</option>
+<option value="655">#580 Даклет</option>
+<option value="656">#581 Сванна</option>
+<option value="657">#582 Ванилайт</option>
+<option value="658">#583 Ванилиш</option>
+<option value="659">#584 Ванилюкс</option>
+<option value="660">#585 Дирлинг</option>
+<option value="661">#586 Сосбак</option>
+<option value="662">#587 Эмолга</option>
+<option value="663">#588 Каррабласт</option>
+<option value="664">#589 Эскавальер</option>
+<option value="665">#590 Фунгус</option>
+<option value="666">#591 Амунгус</option>
+<option value="667">#592 Фрилиш</option>
+<option value="668">#593 Джеллисент</option>
+<option value="669">#594 Аломомола</option>
+<option value="670">#595 Джолтик</option>
+<option value="671">#596 Гальвантула</option>
+<option value="672">#597 Ферросид</option>
+<option value="673">#598 Ферроторн</option>
+<option value="674">#599 Клинк</option>
+<option value="675">#600 Кланг</option>
+<option value="676">#601 Клинкланг</option>
+<option value="677">#602 Тайнамо</option>
+<option value="678">#603 Илектрик</option>
+<option value="679">#604 Илектросс</option>
+<option value="680">#605 Элджиэм</option>
+<option value="681">#606 Бихием</option>
+<option value="682">#607 Литвик</option>
+<option value="683">#608 Лампент</option>
+<option value="684">#609 Шанделюр</option>
+<option value="685">#610 Аксью</option>
+<option value="686">#611 Фраксур</option>
+<option value="687">#612 Хаксорус</option>
+<option value="688">#613 Кабчу</option>
+<option value="689">#614 Бертик</option>
+<option value="690">#615 Криогонал</option>
+<option value="691">#616 Шелмет</option>
+<option value="692">#617 Аксельгор</option>
+<option value="693">#618 Станфиск</option><option value="748">#618 Станфиск Галар</option>
+
+<option value="694">#619 Меньфу</option>
+<option value="695">#620 Меньшао</option>
+<option value="696">#621 Драддигон</option>
+<option value="697">#622 Голетт</option>
+<option value="698">#623 Голурк</option>
+<option value="699">#624 Поньярд</option>
+<option value="700">#625 Бишарп</option>
+<option value="701">#626 Буффалант</option>
+<option value="702">#627 Раффлет</option>
+<option value="703">#628 Брэйвиари</option>
+<option value="704">#629 Валлаби</option>
+<option value="705">#630 Мандибазз</option>
+<option value="706">#631 Хитмор</option>
+<option value="707">#632 Дюрант</option>
+<option value="708">#633 Дейно</option>
+<option value="709">#634 Цвайлус</option>
+<option value="710">#635 Гидрайгон</option>
+<option value="711">#636 Ларвеста</option>
+<option value="712">#637 Волкарона</option>
+<option value="713">#638 Кобалион</option>
+<option value="714">#639 Терракион</option>
+<option value="715">#640 Виризион</option>
+<option value="716">#641 Торнадус</option><option value="718">#641 Торнадус Териан</option>
+
+<option value="719">#642 Тандурус</option><option value="720">#642 Тандурус Териан</option>
+
+<option value="721">#643 Реширам</option>
+<option value="722">#644 Зекром</option>
+<option value="723">#645 Ландорус</option><option value="724">#645 Ландорус Териан</option>
+
+<option value="725">#646 Кюрем</option><option value="726">#646 Черный Кюрем</option>
+<option value="727">#646 Белый Кюрем</option>
+
+<option value="728">#647 Келдео</option>
+<option value="729">#648 Мелоэтта</option><option value="730">#648 Мелоэтта Пируэт</option>
+
+<option value="731">#649 Генесект</option><option value="732">#649 Генесект Сжигатель</option>
+<option value="733">#649 Генесект Замораживатель</option>
+<option value="734">#649 Генесект Разбрызгиватель</option>
+<option value="735">#649 Генесект Шокер</option>
+
+<option value="736">#808 Мелтан</option>
+<option value="737">#809 Мелметал</option>
+<option value="755">#862 Обстагун</option>
+<option value="747">#863 Перрсеркер</option>
+<option value="757">#865 Сирфетч'д</option>
+<option value="781">#867 Рунеригус</option>
+</select>
+<div id="pokeside">
+<span><a id="84" href="/nidoking" title="Нидокинг"><img itemprop="image" src="/assets/images/pokemony/nidoking.png" alt="Нидокинг" /></a></span>
+<span class="type"><a class="yadovitye" href="/yadovitye-pokemony" title="Ядовитый тип покемонов"><i></i>Ядовитые</a><a class="zemlyanye" href="/zemlyanye-pokemony" title="Земляной тип покемонов"><i></i>Земляные</a></span>
+<ul class="info stats"><li><span>Здоровье:</span> <span>191</span>
+<li><span>Атака:</span> <span>204</span>
+<li><span>Защита:</span> <span>156</span>
+</ul>
+<p>Использует <a class="yadovitye" href="/yadovitye-ataki" title="Ядовитые атаки" target="_blank">ядовитые</a> и <a class="stalnye" href="/stalnye-ataki" title="Стальные атаки" target="_blank">стальные</a> атаки.</p>
+<p>Уязвим для <a class="zemlyanye" href="/zemlyanye-ataki" title="Земляные атаки" target="_blank">земляных</a>, <a class="psihicheskie" href="/psihicheskie-ataki" title="Психические атаки" target="_blank">психических</a>, <a class="ledyanye" href="/ledyanye-ataki" title="Ледяные атаки" target="_blank">ледяных</a> и <a class="vodnye" href="/vodnye-ataki" title="Водяные атаки" target="_blank">водяных</a> атак.</p>
+</div>
+</div>
+<span class="sidetitle">Типы покемонов</span>
+<ul class="sidemenu type"><li><a href="/vodnye-pokemony" class="vodnye" title="Водные покемоны"><i class="icos ico-vodnye"></i>Водные</a></li>
+<li><a href="/ognennye-pokemony" class="ognennye" title="Огненные покемоны"><i class="icos ico-ognennye"></i>Огненные</a></li>
+<li><a href="/travyanye-pokemony" class="travyanye" title="Травяные покемоны"><i class="icos ico-travyanye"></i>Травяные</a></li>
+<li><a href="/volshebnye-pokemony" class="volshebnye" title="Волшебные покемоны"><i class="icos ico-volshebnye"></i>Волшебные</a></li>
+<li><a href="/kamennye-pokemony" class="kamennye" title="Каменные покемоны"><i class="icos ico-kamennye"></i>Каменные</a></li>
+<li><a href="/elektricheskie-pokemony" class="elektricheskie" title="Электрические покемоны"><i class="icos ico-elektricheskie"></i>Электрические</a></li>
+<li><a href="/letayushhie-pokemony" class="letayushhie" title="Летающие покемоны"><i class="icos ico-letayushhie"></i>Летающие</a></li>
+<li><a href="/drakony-pokemony" class="drakony" title="Драконы покемоны"><i class="icos ico-drakony"></i>Драконы</a></li>
+<li><a href="/psihicheskie-pokemony" class="psihicheskie" title="Психические покемоны"><i class="icos ico-psihicheskie"></i>Психические</a></li>
+<li><a href="/ledyanye-pokemony" class="ledyanye" title="Ледяные покемоны"><i class="icos ico-ledyanye"></i>Ледяные</a></li>
+<li><a href="/temnye-pokemony" class="temnye" title="Темные покемоны"><i class="icos ico-temnye"></i>Темные</a></li>
+<li><a href="/boevye-pokemony" class="boevye" title="Боевые покемоны"><i class="icos ico-boevye"></i>Боевые</a></li>
+<li><a href="/normalnye-pokemony" class="normalnye" title="Нормальные покемоны"><i class="icos ico-normalnye"></i>Нормальные</a></li>
+<li><a href="/stalnye-pokemony" class="stalnye" title="Стальные покемоны"><i class="icos ico-stalnye"></i>Стальные</a></li>
+<li><a href="/yadovitye-pokemony" class="yadovitye" title="Ядовитые покемоны"><i class="icos ico-yadovitye"></i>Ядовитые</a></li>
+<li><a href="/zemlyanye-pokemony" class="zemlyanye" title="Земляные покемоны"><i class="icos ico-zemlyanye"></i>Земляные</a></li>
+<li><a href="/nasekomye-pokemony" class="nasekomye" title="Насекомые покемоны"><i class="icos ico-nasekomye"></i>Насекомые</a></li>
+<li class="last"><a href="/prizraki-pokemony" class="prizraki" title="Призраки покемоны"><i class="icos ico-prizraki"></i>Призраки</a></li>
+</ul>
+</div>
+<script src="/pokemonov/js/jquery-3.1.1.min.js"></script>
+<script>
+$("#showho").click(function(){var b=$("#whobeats");var a=$("#showho");if(b.is(":hidden")||b.is(":empty")){a.text("- Свернуть");b.show()}else{a.text("+ Развернуть список");b.hide()}if(b.is(":empty")){$.ajax({type:"POST",url:"/pokeajax",cache:true,data:"words=poison-ground&pid=84",success:function(c){b.html(c)}})}});
+$(document).ready(function(){var a=$("#pokeside span a").attr("id");$("#pokeselect").val(a)});$("#pokeselect").change(function(){$.ajax({type:"POST",url:"/pokeajax",cache:false,data:"pokeid="+$(this).val(),success:function(a){$("#pokeside").html(a)}})});
+</script>
+<div id="footer"><span class="siteinfo">Pokemonov.NET &copy;</span></div>
+<div id="soverlay"></div>
+<script type="text/javascript">
+( function() {
+	var topmenu, hidermenu, menu, hidersidebar, sidebar, showsidebar, content,soverlay;
+	topmenu = document.getElementById( 'topmenu' );
+	sidebar = document.getElementById( 'sidebar' );
+	content = document.getElementById( 'content' );
+	soverlay = document.getElementById( 'soverlay' );
+	hidermenu = topmenu.getElementsByClassName( 'mleft' )[0];
+	hidersidebar = sidebar.getElementsByClassName( 'sidebarx' )[0];
+	showsidebar = topmenu.getElementsByClassName( 'mright' )[0];
+	menu = topmenu.getElementsByTagName( 'ul' )[0];
+	if ( 'undefined' === typeof menu ) {
+		hidermenu.style.display = 'none';
+		return;
+	}
+	showsidebar.onclick = function() {
+		content.className += ' showside';
+	};
+	hidersidebar.onclick = function() {
+		content.className = content.className.replace( ' showside', '' ); 
+	};
+	soverlay.onclick = function() {
+		content.className = content.className.replace( ' showside', '' ); 
+	};
+	hidermenu.onclick = function() {
+		if ( -1 !== topmenu.className.indexOf( 'toggled' ) )
+			topmenu.className = topmenu.className.replace( ' toggled', '' );
+		else
+			topmenu.className += ' toggled';
+	};
+} )();
+const d=document.querySelector("#searchDynamic");var xhr=new XMLHttpRequest();var json_obj={};xhr.open("GET",d.dataset.url,true);xhr.onload=function(a){if(xhr.readyState===4){if(xhr.status===200){json_obj=JSON.parse(xhr.responseText);d.addEventListener("input",updateValue)}else{console.error(xhr.statusText)}}};xhr.onerror=function(a){console.error(xhr.statusText)};xhr.send(null);function updateValue(b){let results=[];let searchVal=b.target.value.toLowerCase();if(searchVal.length>2){for(var a=0;a<json_obj.length;a++){if(json_obj[a]["text"].toLowerCase().includes(searchVal)){results.push(json_obj[a])}else{if(json_obj[a]["texteng"].toLowerCase().includes(searchVal)){results.push(json_obj[a])}}}if(results.length){addSearchRes(results)}}}function addSearchRes(a){let sr=document.querySelector("#searchres");if(!sr){let node=document.createElement("div");node.setAttribute("id","searchres");d.parentNode.insertBefore(node,d.nextSibling);sr=document.querySelector("#searchres")}else{let child=sr.lastElementChild;while(child){sr.removeChild(child);child=sr.lastElementChild}}for(let i=0;i<a.length;i++){let imgurl="/assets/images/pokemony/"+a[i]["texteng"]+".png";let anode=document.createElement("a");anode.setAttribute("href",a[i]["value"]);let aimg=document.createElement("img");aimg.setAttribute("src",imgurl);let atext=document.createTextNode(a[i]["text"]);anode.appendChild(aimg);anode.appendChild(atext);sr.appendChild(anode)}}const srForm=document.getElementById("search-form");document.addEventListener("click",function(a){let isClickInside=srForm.contains(a.target);if(!isClickInside){let sr=document.querySelector("#searchres");if(sr){sr.remove()}}});
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter41409714 = new Ya.Metrika({
+                    id:41409714,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/41409714" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script type="text/javascript">
+( function( j ) { j( function() {
+    j.ajax( {
+        url: '//vk.com/js/api/openapi.js?136',
+        cache: true,
+        dataType: 'script',
+        success: function() {
+            VK.init({apiId: 5754659, onlyWidgets: true});
+            VK.Widgets.Comments("vk_comments", {limit:10, width:"638", attach:"graffiti,photo,video,audio" });  }
+    } );
+} ) } )( jQuery );
+</script><style>#searchres{background:#fff;border:1px solid #e9e9e9;padding:10px;border-radius:10px;transition:all .5s ease}#searchres a{display:block;padding:8px 0;border-bottom:1px solid #e9e9e9;transition:all .5s ease}#searchres a:last-child{border:0}#searchres a img{vertical-align:middle;margin-right:10px}#head{overflow:unset}</style>
+</div>
+</body>
+</html>

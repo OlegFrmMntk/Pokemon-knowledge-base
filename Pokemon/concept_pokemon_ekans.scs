@@ -1,0 +1,66 @@
+concept_pokemon -> concept_pokemon_ekans;;
+
+concept_pokemon_ekans
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эканс]
+	(* <- lang_ru;;	*);
+	[Ekans]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_ekans <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эканс)](*<-lang_ru;;*);
+		[Description (Ekans)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ekans_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ekans_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ekans <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Эканс)](*<-lang_ru;;*);
+		[Appearance (Ekans)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ekans_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ekans_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_ekans <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эканс)](*<-lang_ru;;*);
+		[Pic. (Ekans)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_ekans.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_ekans 
+=> nrel_pokemon_type: concept_poison_type;;
+
+concept_pokemon_ekans 
+=> nrel_color_in_pokedex: concept_color_purple;;
+
+value -> 23;;
+concept_pokemon_ekans => nrel_pokedex_number: 23;;
+
+value -> 2;;
+concept_pokemon_ekans => nrel_height: 2;;
+
+value -> 6.9;;
+concept_pokemon_ekans => nrel_weight: 6.9;;
+
+concept_pokemon_ekans
+=> nrel_pokemon_evolution: concept_pokemon_arbok;;

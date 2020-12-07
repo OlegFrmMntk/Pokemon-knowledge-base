@@ -1,0 +1,18 @@
+concept_pokemon_forest
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[лес](*<-lang_ru;;*);
+	[forest](*<-lang_en;;*);;
+
+concept_pokemon_forest <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (лес)](*<-lang_ru;;*);
+		[Description (forest)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_forest_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_forest_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;    
